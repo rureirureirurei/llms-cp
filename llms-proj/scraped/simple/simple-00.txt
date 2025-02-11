@@ -1,0 +1,900 @@
+### Problem ###
+Find the sum of two integers.
+
+### Test Case ###
+Input:
+5 10
+Output:
+15
+
+### Test Case ###
+Input:
+3 7
+Output:
+10
+===
+### Problem ###
+Find the difference between two numbers.
+
+### Test Case ###
+Input:
+12 5
+Output:
+7
+
+### Test Case ###
+Input:
+20 8
+Output:
+12
+===
+### Problem ###
+Multiply two integers.
+
+### Test Case ###
+Input:
+4 6
+Output:
+24
+
+### Test Case ###
+Input:
+7 9
+Output:
+63
+===
+### Problem ###
+Find the maximum of two numbers.
+
+### Test Case ###
+Input:
+9 15
+Output:
+15
+
+### Test Case ###
+Input:
+22 18
+Output:
+22
+===
+### Problem ###
+Find the minimum of two numbers.
+
+### Test Case ###
+Input:
+14 8
+Output:
+8
+
+### Test Case ###
+Input:
+10 20
+Output:
+10
+===
+### Problem ###
+Check if a number is even or odd.
+
+### Test Case ###
+Input:
+7
+Output:
+Odd
+
+### Test Case ###
+Input:
+12
+Output:
+Even
+===
+### Problem ###
+Find the square of a number.
+
+### Test Case ###
+Input:
+5
+Output:
+25
+
+### Test Case ###
+Input:
+9
+Output:
+81
+===
+### Problem ###
+Find the cube of a number.
+
+### Test Case ###
+Input:
+3
+Output:
+27
+
+### Test Case ###
+Input:
+6
+Output:
+216
+===
+### Problem ###
+Find the absolute difference between two numbers.
+
+### Test Case ###
+Input:
+15 8
+Output:
+7
+
+### Test Case ###
+Input:
+20 30
+Output:
+10
+===
+### Problem ###
+Convert temperature from Celsius to Fahrenheit.
+
+### Test Case ###
+Input:
+0
+Output:
+32
+
+### Test Case ###
+Input:
+25
+Output:
+77
+===
+### Problem ###
+Convert temperature from Fahrenheit to Celsius.
+
+### Test Case ###
+Input:
+32
+Output:
+0
+
+### Test Case ###
+Input:
+98
+Output:
+36.67
+===
+### Problem ###
+Find the area of a rectangle.
+
+### Test Case ###
+Input:
+4 6
+Output:
+24
+
+### Test Case ###
+Input:
+10 5
+Output:
+50
+===
+### Problem ###
+Find the perimeter of a rectangle.
+
+### Test Case ###
+Input:
+3 7
+Output:
+20
+
+### Test Case ###
+Input:
+8 5
+Output:
+26
+===
+### Problem ###
+Find the area of a square.
+
+### Test Case ###
+Input:
+6
+Output:
+36
+
+### Test Case ###
+Input:
+9
+Output:
+81
+===
+### Problem ###
+Find the perimeter of a square.
+
+### Test Case ###
+Input:
+5
+Output:
+20
+
+### Test Case ###
+Input:
+12
+Output:
+48
+===
+### Problem ###
+Find the area of a triangle.
+
+### Test Case ###
+Input:
+6 8
+Output:
+24
+
+### Test Case ###
+Input:
+10 15
+Output:
+75
+===
+### Problem ###
+Check if a number is positive, negative, or zero.
+
+### Test Case ###
+Input:
+7
+Output:
+Positive
+
+### Test Case ###
+Input:
+-3
+Output:
+Negative
+===
+### Problem ###
+Find the factorial of a number.
+
+### Test Case ###
+Input:
+5
+Output:
+120
+
+### Test Case ###
+Input:
+7
+Output:
+5040
+===
+### Problem ###
+Find the sum of digits of a number.
+
+### Test Case ###
+Input:
+123
+Output:
+6
+
+### Test Case ###
+Input:
+987
+Output:
+24
+===
+### Problem ###
+Reverse a three-digit number.
+
+### Test Case ###
+Input:
+123
+Output:
+321
+
+### Test Case ###
+Input:
+456
+Output:
+654
+===
+### Problem ###
+Find the greatest common divisor (GCD) of two numbers.
+
+### Test Case ###
+Input:
+8 12
+Output:
+4
+
+### Test Case ###
+Input:
+18 24
+Output:
+6
+===
+### Problem ###
+Find the least common multiple (LCM) of two numbers.
+
+### Test Case ###
+Input:
+4 5
+Output:
+20
+
+### Test Case ###
+Input:
+6 8
+Output:
+24
+===
+### Problem ###
+Swap two numbers.
+
+### Test Case ###
+Input:
+3 7
+Output:
+7 3
+
+### Test Case ###
+Input:
+12 5
+Output:
+5 12
+===
+### Problem ###
+Check if a number is prime.
+
+### Test Case ###
+Input:
+7
+Output:
+Prime
+
+### Test Case ###
+Input:
+12
+Output:
+Not Prime
+===
+### Problem ###
+Find the next even number.
+
+### Test Case ###
+Input:
+5
+Output:
+6
+
+### Test Case ###
+Input:
+8
+Output:
+10
+===
+### Problem ###
+Find the sum of the first N natural numbers.
+
+### Test Case ###
+Input:
+5
+Output:
+15
+
+### Test Case ###
+Input:
+10
+Output:
+55
+===
+### Problem ###
+Find the number of digits in a number.
+
+### Test Case ###
+Input:
+12345
+Output:
+5
+
+### Test Case ###
+Input:
+987654
+Output:
+6
+===
+### Problem ###
+Check if a year is a leap year.
+
+### Test Case ###
+Input:
+2024
+Output:
+Leap Year
+
+### Test Case ###
+Input:
+2023
+Output:
+Not a Leap Year
+===
+### Problem ###
+Find the remainder when dividing two numbers.
+
+### Test Case ###
+Input:
+10 3
+Output:
+1
+
+### Test Case ###
+Input:
+25 7
+Output:
+4
+===
+### Problem ###
+Find the average of three numbers.
+
+### Test Case ###
+Input:
+4 8 12
+Output:
+8.0
+
+### Test Case ###
+Input:
+10 20 30
+Output:
+20.0
+===
+### Problem ###
+Check if a number is a multiple of another.
+
+### Test Case ###
+Input:
+10 2
+Output:
+Yes
+
+### Test Case ###
+Input:
+15 4
+Output:
+No
+===
+### Problem ###
+Find the last digit of a number.
+
+### Test Case ###
+Input:
+123
+Output:
+3
+
+### Test Case ###
+Input:
+9876
+Output:
+6
+===
+### Problem ###
+Find the first digit of a number.
+
+### Test Case ###
+Input:
+4567
+Output:
+4
+
+### Test Case ###
+Input:
+8123
+Output:
+8
+===
+### Problem ###
+Find the sum of the first and last digit of a number.
+
+### Test Case ###
+Input:
+1234
+Output:
+5
+
+### Test Case ###
+Input:
+5678
+Output:
+13
+===
+### Problem ###
+Check if a number is a palindrome.
+
+### Test Case ###
+Input:
+121
+Output:
+Yes
+
+### Test Case ###
+Input:
+123
+Output:
+No
+===
+### Problem ###
+Find the product of digits of a number.
+
+### Test Case ###
+Input:
+123
+Output:
+6
+
+### Test Case ###
+Input:
+456
+Output:
+120
+===
+### Problem ###
+Count the number of even digits in a number.
+
+### Test Case ###
+Input:
+2468
+Output:
+4
+
+### Test Case ###
+Input:
+1357
+Output:
+0
+===
+### Problem ###
+Count the number of odd digits in a number.
+
+### Test Case ###
+Input:
+12345
+Output:
+3
+
+### Test Case ###
+Input:
+24680
+Output:
+0
+===
+### Problem ###
+Find the sum of squares of digits of a number.
+
+### Test Case ###
+Input:
+23
+Output:
+13
+
+### Test Case ###
+Input:
+45
+Output:
+41
+===
+### Problem ###
+Find the largest digit in a number.
+
+### Test Case ###
+Input:
+978
+Output:
+9
+
+### Test Case ###
+Input:
+1234
+Output:
+4
+===
+### Problem ###
+Find the smallest digit in a number.
+
+### Test Case ###
+Input:
+978
+Output:
+7
+
+### Test Case ###
+Input:
+1234
+Output:
+1
+===
+### Problem ###
+Check if a number is a perfect square.
+
+### Test Case ###
+Input:
+16
+Output:
+Yes
+
+### Test Case ###
+Input:
+23
+Output:
+No
+===
+### Problem ###
+Find the next prime number.
+
+### Test Case ###
+Input:
+7
+Output:
+11
+
+### Test Case ###
+Input:
+12
+Output:
+13
+===
+### Problem ###
+Find the sum of even numbers up to N.
+
+### Test Case ###
+Input:
+6
+Output:
+12
+
+### Test Case ###
+Input:
+10
+Output:
+30
+===
+### Problem ###
+Find the sum of odd numbers up to N.
+
+### Test Case ###
+Input:
+5
+Output:
+9
+
+### Test Case ###
+Input:
+7
+Output:
+16
+===
+### Problem ###
+Find the number of trailing zeroes in a factorial.
+
+### Test Case ###
+Input:
+5
+Output:
+1
+
+### Test Case ###
+Input:
+10
+Output:
+2
+===
+### Problem ###
+Reverse the digits of a number.
+
+### Test Case ###
+Input:
+456
+Output:
+654
+
+### Test Case ###
+Input:
+123
+Output:
+321
+===
+### Problem ###
+Check if a number is a power of 2.
+
+### Test Case ###
+Input:
+8
+Output:
+Yes
+
+### Test Case ###
+Input:
+10
+Output:
+No
+===
+### Problem ###
+Find the exponent of 2 that results in a number.
+
+### Test Case ###
+Input:
+16
+Output:
+4
+
+### Test Case ###
+Input:
+32
+Output:
+5
+===
+### Problem ###
+Find the square root of a number (rounded down).
+
+### Test Case ###
+Input:
+17
+Output:
+4
+
+### Test Case ###
+Input:
+49
+Output:
+7
+===
+### Problem ###
+Find the cube root of a number (rounded down).
+
+### Test Case ###
+Input:
+27
+Output:
+3
+
+### Test Case ###
+Input:
+65
+Output:
+4
+===
+### Problem ###
+Compute the sum of numbers from A to B.
+
+### Test Case ###
+Input:
+3 7
+Output:
+25
+
+### Test Case ###
+Input:
+10 15
+Output:
+75
+===
+### Problem ###
+Check if a number is an Armstrong number.
+
+### Test Case ###
+Input:
+153
+Output:
+Yes
+
+### Test Case ###
+Input:
+123
+Output:
+No
+===
+### Problem ###
+Find the nth Fibonacci number.
+
+### Test Case ###
+Input:
+5
+Output:
+5
+
+### Test Case ###
+Input:
+8
+Output:
+21
+===
+### Problem ###
+Find the sum of the Fibonacci sequence up to N.
+
+### Test Case ###
+Input:
+5
+Output:
+12
+
+### Test Case ###
+Input:
+7
+Output:
+33
+===
+### Problem ###
+Find the number of divisors of a number.
+
+### Test Case ###
+Input:
+12
+Output:
+6
+
+### Test Case ###
+Input:
+15
+Output:
+4
+===
+### Problem ###
+Find the sum of divisors of a number.
+
+### Test Case ###
+Input:
+10
+Output:
+18
+
+### Test Case ###
+Input:
+15
+Output:
+24
+===
+### Problem ###
+Find the largest prime factor of a number.
+
+### Test Case ###
+Input:
+28
+Output:
+7
+
+### Test Case ###
+Input:
+50
+Output:
+5
+===
+### Problem ###
+Check if a number is a perfect number.
+
+### Test Case ###
+Input:
+6
+Output:
+Yes
+
+### Test Case ###
+Input:
+8
+Output:
+No
+===
+### Problem ###
+Find the smallest prime greater than a given number.
+
+### Test Case ###
+Input:
+10
+Output:
+11
+
+### Test Case ###
+Input:
+20
+Output:
+23
+===

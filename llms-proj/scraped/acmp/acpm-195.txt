@@ -1,0 +1,25 @@
+Eniya  
+
+At the shipyards of the sixth dock of the intergalactic port on the planet Thorne, the reconstruction of the small armored corvette *Eniya* is nearing completion. In just a month, this warship and its brave crew will once again face fierce battles over the plutonium mines of Sibelius. The repair work is relentless, continuing around the clock, with welding robots working non-stop.  
+
+Amidst this chaos, it is discovered that the corvette’s thermal protection panels urgently require treatment with thorium sulfide. Treating one square meter of panel requires **1 nanogram** of thorium sulfide. Each panel has dimensions **A × B** meters, and **N** such panels need treatment. Furthermore, each panel must be processed on **both sides**.  
+
+Input:  
+The input file "INPUT.TXT" contains three positive integers **N, A, B**, separated by spaces:  
+- **N** (number of panels, N ≤ 100)  
+- **A** (panel length in meters, A ≤ 100)  
+- **B** (panel width in meters, B ≤ 100)  
+
+Output:  
+Print a single integer to the output file "OUTPUT.TXT," representing the total weight of thorium sulfide required in nanograms.  
+
+Example:  
+Input:  
+5 2 3  
+Output:  
+60  
+
+Input:  
+14 23 5  
+Output:  
+3220  

@@ -1,0 +1,186 @@
+### Problem ###
+Given a string, count the number of vowels (a, e, i, o, u) present in it.
+
+### Test Case ###
+Input:  
+hello world  
+Output:  
+3  
+===  
+### Problem ###
+Determine if a given string is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+### Test Case ###
+Input:  
+A man, a plan, a canal, Panama!  
+Output:  
+True  
+===  
+### Problem ###
+Given a list of words, find and return the longest word.
+
+### Test Case ###
+Input:  
+apple banana orange strawberry  
+Output:  
+strawberry  
+===  
+### Problem ###
+Check whether two strings are anagrams of each other (ignoring spaces and capitalization).
+
+### Test Case ###
+Input:  
+Listen  
+Silent  
+Output:  
+True  
+===  
+### Problem ###
+Given a sentence, count the number of words that contain at least one uppercase letter.
+
+### Test Case ###
+Input:  
+Hello World this Is a Test  
+Output:  
+3  
+===  
+### Problem ###
+Find the most frequently occurring character in a given string.
+
+### Test Case ###
+Input:  
+mississippi  
+Output:  
+i  
+===  
+### Problem ###
+Reverse all the words in a given sentence while maintaining their original order.
+
+### Test Case ###
+Input:  
+This is a test  
+Output:  
+sihT si a tset  
+===  
+### Problem ###
+Count the number of substrings in a given string that start and end with the same letter.
+
+### Test Case ###
+Input:  
+abcab  
+Output:  
+7  
+===  
+### Problem ###
+Determine if two strings are one edit distance apart (insert, delete, or replace one character).
+
+### Test Case ###
+Input:  
+kitten  
+sitten  
+Output:  
+True  
+===  
+### Problem ###
+Find the longest common prefix among a set of given words.
+
+### Test Case ###
+Input:  
+flower flow flight  
+Output:  
+fl  
+===
+### Problem ###
+Given a set of numbers, compute the number of subsets whose sum is even.
+
+### Test Case ###
+Input:  
+3  
+1 2 3  
+Output:  
+4  
+===  
+### Problem ###
+Find the number of ways to arrange n distinct objects in a row.
+
+### Test Case ###
+Input:  
+5  
+Output:  
+120  
+===  
+### Problem ###
+Compute the number of ways to choose k elements from a set of n elements.
+
+### Test Case ###
+Input:  
+6 3  
+Output:  
+20  
+===  
+### Problem ###
+Determine the number of ways to distribute n identical objects into k distinct bins.
+
+### Test Case ###
+Input:  
+4 2  
+Output:  
+5  
+===  
+### Problem ###
+Find the number of different permutations of a word containing duplicate letters.
+
+### Test Case ###
+Input:  
+banana  
+Output:  
+60  
+===  
+### Problem ###
+Compute the number of ways to partition a set of n elements into k non-empty subsets.
+
+### Test Case ###
+Input:  
+4 2  
+Output:  
+7  
+===  
+### Problem ###
+Given a list of numbers, count the number of unique subsets.
+
+### Test Case ###
+Input:  
+3  
+1 2 2  
+Output:  
+6  
+===  
+### Problem ###
+Find the number of ways to form a sum N using given numbers with unlimited repetitions.
+
+### Test Case ###
+Input:  
+N = 5  
+Numbers = [1, 2, 3]  
+Output:  
+5  
+===  
+### Problem ###
+Compute the number of different ways to arrange a set of people in a circular formation.
+
+### Test Case ###
+Input:  
+6  
+Output:  
+120  
+===  
+### Problem ###
+Given a set of numbers, find the number of ways to split it into two subsets with equal sum.
+
+### Test Case ###
+Input:  
+4  
+1 5 11 5  
+Output:  
+True  
+===

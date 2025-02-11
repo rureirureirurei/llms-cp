@@ -1,0 +1,170 @@
+### Problem ###
+Find the sum of all even numbers in a given list of integers.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Determine if a given sequence of numbers is strictly increasing.
+
+### Test Case ###
+Input:
+5
+1 3 5 7 9
+Output:
+Yes
+
+### Test Case ###
+Input:
+4
+2 2 3 4
+Output:
+No
+===
+### Problem ###
+Given a list of student scores, find the highest and lowest score.
+
+### Test Case ###
+Input:
+6
+85 92 76 90 88 95
+Output:
+95 76
+
+### Test Case ###
+Input:
+4
+55 60 78 70
+Output:
+78 55
+===
+### Problem ###
+Find the longest word in a given list of words.
+
+### Test Case ###
+Input:
+5
+apple banana cherry date elderberry
+Output:
+elderberry
+
+### Test Case ###
+Input:
+3
+car truck motorcycle
+Output:
+motorcycle
+===
+### Problem ###
+Count how many words in a sentence contain at least one vowel.
+
+### Test Case ###
+Input:
+The quick brown fox jumps over the lazy dog
+Output:
+9
+
+### Test Case ###
+Input:
+Sky blue cloud
+Output:
+2
+===
+### Problem ###
+Given a list of pairs representing city temperatures (city name and temperature), find the coldest city.
+
+### Test Case ###
+Input:
+3
+NewYork 32 Chicago 25 LosAngeles 40
+Output:
+Chicago
+
+### Test Case ###
+Input:
+4
+Berlin 10 Paris 12 Madrid 8 Rome 14
+Output:
+Madrid
+===
+### Problem ###
+Given a series of dates in YYYY-MM-DD format, find the earliest date.
+
+### Test Case ###
+Input:
+5
+2023-06-14 2021-04-30 2022-09-12 2020-01-01 2021-12-25
+Output:
+2020-01-01
+
+### Test Case ###
+Input:
+3
+2019-05-20 2018-11-15 2020-07-07
+Output:
+2018-11-15
+===
+### Problem ###
+Given a sentence, reverse the order of the words.
+
+### Test Case ###
+Input:
+Hello world this is a test
+Output:
+test a is this world Hello
+
+### Test Case ###
+Input:
+Python is great
+Output:
+great is Python
+===
+### Problem ###
+Find the most frequently occurring number in a list.
+
+### Test Case ###
+Input:
+8
+4 2 4 5 6 4 2 2
+Output:
+4
+
+### Test Case ###
+Input:
+6
+1 3 1 3 2 3
+Output:
+3
+===
+### Problem ###
+Determine whether a given 2D matrix is symmetric.
+
+### Test Case ###
+Input:
+3
+1 2 3
+2 4 5
+3 5 6
+Output:
+Yes
+
+### Test Case ###
+Input:
+3
+1 2 3
+4 5 6
+7 8 9
+Output:
+No
+===

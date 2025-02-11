@@ -1,0 +1,3608 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-743380-5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-743380-5');
+        </script>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="5b6256fe271f2ce8cc8fb28d8917a93f"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
+
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery-1.8.3.js"></script>
+    <script type="application/javascript">
+        window.locale = "en";
+        window.standaloneContest = false;
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 1100; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+
+        /* Protection against trailing dot in domain. */
+        let hostLength = window.location.host.length;
+        if (hostLength > 1 && window.location.host[hostLength - 1] === '.') {
+            window.location = window.location.protocol + "//" + window.location.host.substring(0, hostLength - 1);
+        }
+    </script>
+
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="f1">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"/>
+    <meta property="fb:admins" content="100001352546622" />
+    <meta property="og:image" content="//codeforces.org/s/89536/images/codeforces-sponsored-by-ton.png" />
+    <link rel="image_src" href="//codeforces.org/s/89536/images/codeforces-sponsored-by-ton.png" />
+    <meta property="og:title" content="Status - Codeforces"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="og:site_name" content="Codeforces"/>
+    
+    
+    <meta name="gc" content="e1f739168d52d8f246c5c583ed75925d628934ee"/>
+    
+    
+    
+    <meta name="utc_offset" content="+03:00"/>
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2" />
+    <title>Status - Codeforces</title>
+        <meta name="description" content="Codeforces. Programming competitions and contests, programming community" />
+        <meta name="keywords" content="programming algorithm contest competition informatics olympiads c++ java graphs vkcup" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/font-awesome.min.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/line-awesome.min.css" type="text/css" charset="utf-8" />
+
+        <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="//codeforces.org/s/89536/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="//codeforces.org/s/89536/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="//codeforces.org/s/89536/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="//codeforces.org/s/89536/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="//codeforces.org/s/89536/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="//codeforces.org/s/89536/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="//codeforces.org/s/89536/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="//codeforces.org/s/89536/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="//codeforces.org/s/89536/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="//codeforces.org/s/89536/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="//codeforces.org/s/89536/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="//codeforces.org/s/89536/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="//codeforces.org/s/89536/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="//codeforces.org/s/89536/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/prettify.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/clear.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/ttypography.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/problem-statement.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/second-level-menu.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/roundbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/datatable.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/table-form.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/topic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/jquery.jgrowl.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/facebox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/jquery.wysiwyg.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/codeforces.datepick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/colorbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/css/jquery.drafts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//codeforces.org/s/89536/css/community.css" type="text/css" charset="utf-8" />
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+    });
+    MathJax.Hub.Register.StartupHook("End", function () {
+        Codeforces.runMathJaxListeners();
+    });
+    </script>
+    <script type="text/javascript" async
+            src="https://codeforces.com/mathjax.codeforces.org/MathJax.js?config=TeX-AMS_HTML-full"
+    >
+    </script>
+    <!-- /MathJax -->
+
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/pushstream.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.swipe.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/facebox.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/controls/wysiwyg.colorpicker.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/controls/wysiwyg.table.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/controls/wysiwyg.image.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/controls/wysiwyg.link.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.datepick.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.ie6blocker.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.ba-bbq.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/jquery.drafts.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/autosize.min.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/sjcl.js"></script>
+    <script type="text/javascript" src="/scripts/6e8f143c240b448d5b543c8afad7be10/en/codeforces-options.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/codeforces.js?v=20160131"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/EventCatcher.js?v=20160131"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/preparedVerdictFormats-en.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/js/confetti.min.js"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="//codeforces.org/s/89536/markitup/skins/markitup/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//codeforces.org/s/89536/markitup/sets/markdown/style.css" type="text/css" charset="utf-8" />
+
+
+    <script type="text/javascript" src="//codeforces.org/s/89536/markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="//codeforces.org/s/89536/markitup/sets/markdown/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+
+
+
+</head>
+<body class=" "><span style='display:none;' class='csrf-token' data-csrf='5b6256fe271f2ce8cc8fb28d8917a93f'>&nbsp;</span>
+
+<!-- .notificationTextCleaner used in Codeforces.showAnnouncements() -->
+<div class="notificationTextCleaner" style="font-size: 0"></div>
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+<div class="verdictPrototypeDiv" style="display: none;"></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    String.prototype.hashCode = function() {
+        var hash = 0, i, chr;
+        if (this.length === 0) return hash;
+        for (i = 0; i < this.length; i++) {
+            chr   = this.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    };
+
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile === "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != false) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }});
+
+    window.updateTypography();
+
+    Codeforces.signForms();
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 700
+        });
+    }, 100);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+
+    function showAnnouncements(json) {
+        //info("j=" + JSON.stringify(json));
+
+        if (json.t != "a") {
+            return;
+        }
+
+        setTimeout(function() {
+            Codeforces.showAnnouncements(json.d, "en");
+        }, Math.random() * 500);
+    }
+
+    function showEventCatcherUserMessage(json) {
+        if (json.t == "s") {
+            var points = json.d[5];
+            var passedTestCount = json.d[7];
+            var judgedTestCount = json.d[8];
+            var verdict = preparedVerdictFormats[json.d[12]];
+            var verdictPrototypeDiv = $(".verdictPrototypeDiv");
+            verdictPrototypeDiv.html(verdict);
+            if (judgedTestCount != null && judgedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-judged").text(judgedTestCount);
+            }
+            if (passedTestCount != null && passedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-passed").text(passedTestCount);
+            }
+            if (points != null && points != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-points").text(points);
+            }
+            Codeforces.showMessage(verdictPrototypeDiv.text());
+        }
+    }
+
+    $(".clickable-title").each(function() {
+        var title = $(this).attr("data-title");
+        if (title) {
+            var tmp = document.createElement("DIV");
+            tmp.innerHTML = title;
+            $(this).attr("title", tmp.textContent || tmp.innerText || "");
+        }
+    });
+
+    $(".clickable-title").click(function() {
+        const title = $(this).attr("data-title");
+        const clazz = $(this).attr("data-clazz");
+        const props = {};
+        if (typeof (clazz) !== 'undefined') {
+            props['clazz'] = clazz;
+        }
+        if (title) {
+            Codeforces.alert(title, null, null, props);
+        } else {
+            Codeforces.alert($(this).attr("title"), null, null, props);
+        }
+    }).css("position", "relative").css("bottom", "3px");
+
+        Codeforces.showDelayedMessage();
+
+    Codeforces.reformatTimes();
+
+    //Codeforces.initializePubSub();
+    if (window.codeforcesOptions.subscribeServerUrl) {
+        window.eventCatcher = new EventCatcher(
+            window.codeforcesOptions.subscribeServerUrl,
+            [
+                Codeforces.getGlobalChannel(),
+                Codeforces.getUserChannel(),
+                Codeforces.getUserShowMessageChannel(),
+                Codeforces.getContestChannel(),
+                Codeforces.getParticipantChannel(),
+                Codeforces.getTalkChannel()
+            ]
+        );
+
+        if (Codeforces.getParticipantChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getParticipantChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getContestChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getContestChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getGlobalChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getGlobalChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserShowMessageChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserShowMessageChannel(), function(json) {
+                showEventCatcherUserMessage(json);
+            });
+        }
+    }
+
+    Codeforces.setupContestTimes("/data/contests");
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+
+<div id="body">
+        
+
+<div class="side-bell" style="visibility: hidden; display: none; opacity: 0.7; width: 40px; position: fixed; right: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 1.5rem;">
+    <span class="icon-stack" style="width: 100%;">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-bell-alt icon-light"></i>
+    </span>
+    <br/>
+    <span class="side-bell__count" style="position: relative; top: -10px;"></span>
+</div>
+
+
+<div id="header" style="position: relative;">
+
+    <div style="float:left; max-height: 60px;">
+                            <a href="/"><img height="65" style="height: 65px;" alt="Codeforces" title="Codeforces" src="//codeforces.org/s/89536/images/codeforces-sponsored-by-ton.png"/></a>
+    </div>
+    <div class="lang-chooser">
+            <div style="text-align: right;">
+                <a href="?locale=en"><img src="//codeforces.org/s/89536/images/flags/24/gb.png" title="In English"
+                                                         alt="In English"/></a>
+                <a href="?locale=ru"><img src="//codeforces.org/s/89536/images/flags/24/ru.png" title="По-русски"
+                                                         alt="По-русски"/></a>
+            </div>
+
+        <div >
+                        <a href="/enter?back=%2Fproblemset%2Fstatus%2F4%2Fproblem%2FA">Enter</a>
+                     | 
+                        <a href="/register">Register</a>
+                    
+        </div>
+
+    </div>
+    <br style="clear: both;"/>
+</div>
+        
+
+
+    <div class="roundbox menu-box borderTopRound borderBottomRound" style="">
+    <div class="menu-list-container">
+    <ul class="menu-list main-menu-list">
+                <li class=""><a href="/">Home</a></li>
+                <li class=""><a href="/top">Top</a></li>
+                <li class=""><a href="/catalog">Catalog</a></li>
+                <li class=""><a href="/contests">Contests</a></li>
+                <li class=""><a href="/gyms">Gym</a></li>
+                <li class="current"><a href="/problemset">Problemset</a></li>
+                <li class=""><a href="/groups">Groups</a></li>
+                <li class=""><a href="/ratings">Rating</a></li>
+                <li class=""><a href="/edu/courses"><span class="edu-menu-item">Edu</span></a></li>
+                <li class=""><a href="/apiHelp">API</a></li>
+                <li class=""><a href="/calendar">Calendar</a></li>
+                <li class=""><a href="/help">Help</a></li>
+                <li class=""><a href="/rayan">Rayan <img class="icon" src="//st.codeforces.com/images/icons/cup.png"/></a></li>
+    </ul>
+        <form method="post" action="/search"><input type='hidden' name='csrf_token' value='5b6256fe271f2ce8cc8fb28d8917a93f'/>
+            <input class="search" name="query" data-isPlaceholder="true" value=""/>
+        </form>
+    <br style="clear: both;"/>
+</div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input.search").focus(function () {
+                if ($(this).attr("data-isPlaceholder") === "true") {
+                    $(this).val("");
+                    $(this).removeAttr("data-isPlaceholder");
+                }
+            });
+        });
+    </script>
+            <br style="height: 3em; clear: both;"/>
+
+        <div style="position: relative;">
+                        <div id="sidebar">
+<style data-nocturne="true">
+
+</style>
+
+
+    <div class="roundbox sidebox status-filter-box borderTopRound " style="">
+        <div class="caption titled">&rarr; Status filter
+            <div class="top-links">
+            </div>
+        </div>
+        <style>
+            .status-filter div.setting-name {
+                color: #3B5998;
+                font-weight: bold;
+                font-size: 0.8em;
+            }
+
+            .status-filter .setting-value {
+                width: 100%;
+                font-size: 0.8em;
+            }
+
+            .status-filter div.shiftUp {
+                font-size: 0.8em;
+            }
+
+            .status-filter input {
+                font-size: 0.8em;
+            }
+
+            .status-filter input.setting-value {
+                box-sizing: border-box;
+            }
+
+            .status-filter .status-filter-form-part {
+                margin: 0.5em 0;
+            }
+
+            .status-filter .status-filter-form-part:first-child {
+                margin: 0 0 0.5em 0;
+            }
+        </style>
+        <div style="padding: 0.7em;">
+            <form method="post" action="" class="status-filter"><input type='hidden' name='csrf_token' value='5b6256fe271f2ce8cc8fb28d8917a93f'/>
+                <input type="hidden" class="action" name="action" value="setupSubmissionFilter"/>
+
+                <div class="status-filter-box-content">
+            
+<style data-nocturne="true" type="text/css">
+
+</style>
+
+    <div class="status-filter-form-part">
+        <div class="setting-name">
+            <label for="frameProblemIndex">Problem:</label>
+        </div>
+        <div>
+            <select class="setting-value" name="frameProblemIndex" id="frameProblemIndex"
+                    disabled="disabled">
+                <option value="anyProblem" >
+                    Any problem
+                </option>
+                    <option value="A" selected>
+                        A - Watermelon
+                    </option>
+                    <option value="B" >
+                        B - Before an Exam
+                    </option>
+                    <option value="C" >
+                        C - Registration System
+                    </option>
+                    <option value="D" >
+                        D - Mysterious Present
+                    </option>
+            </select>
+        </div>
+    </div>
+
+        <input type="hidden" name="frameProblemIndex" value="A"/>
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+            
+<style data-nocturne="true" type="text/css">
+
+</style>
+
+    <div class="status-filter-form-part">
+        <div class="setting-name">
+            <label for="verdictName">Verdict:</label>
+        </div>
+        <div>
+            <select class="setting-value" name="verdictName" id="verdictName">
+                <option value="anyVerdict" >
+                    Any verdict
+                </option>
+                    <option value="OK" >
+                        Accepted
+                    </option>
+                    <option value="REJECTED" >
+                        Rejected
+                    </option>
+                    <option value="WRONG_ANSWER" selected>
+                        Wrong answer
+                    </option>
+                    <option value="RUNTIME_ERROR" >
+                        Runtime error
+                    </option>
+                    <option value="TIME_LIMIT_EXCEEDED" >
+                        Time limit exceeded
+                    </option>
+                    <option value="MEMORY_LIMIT_EXCEEDED" >
+                        Memory limit exceeded
+                    </option>
+                    <option value="COMPILATION_ERROR" >
+                        Compilation error
+                    </option>
+                    <option value="CHALLENGED" >
+                        Hacked
+                    </option>
+                    <option value="FAILED" >
+                        Judgement failed
+                    </option>
+                    <option value="PARTIAL" >
+                        Partial
+                    </option>
+                    <option value="WRONG_ANSWER" >
+                        Presentation error
+                    </option>
+                    <option value="IDLENESS_LIMIT_EXCEEDED" >
+                        Idleness limit exceeded
+                    </option>
+                    <option value="SECURITY_VIOLATED" >
+                        Security violated
+                    </option>
+                    <option value="CRASHED" >
+                        Denial of judgement
+                    </option>
+                    <option value="INPUT_PREPARATION_CRASHED" >
+                        Input preparation failed
+                    </option>
+                    <option value="SKIPPED" >
+                        Skipped
+                    </option>
+                    <option value="TESTING" >
+                        Running
+                    </option>
+                    <option value="SUBMITTED" >
+                        Pending judgement
+                    </option>
+            </select>
+        </div>
+    </div>
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+            
+<style data-nocturne="true" type="text/css">
+
+</style>
+
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+            
+<style data-nocturne="true" type="text/css">
+
+</style>
+
+    <div class="status-filter-form-part">
+        <div class="setting-name">
+            <label for="programTypeForInvoker">Language:</label>
+        </div>
+        <div>
+            <select class="setting-value" name="programTypeForInvoker" id="programTypeForInvoker">
+                <option value="anyProgramTypeForInvoker"
+                        >
+                    Any language
+                </option>
+                    <option value="c.gcc11"
+                            >
+                        GNU C11
+                    </option>
+                    <option value="cpp.g++17"
+                            >
+                        C++17 (GCC 7-32)
+                    </option>
+                    <option value="cpp.gcc13-64-winlibs-g++20"
+                            >
+                        C++20 (GCC 13-64)
+                    </option>
+                    <option value="cpp.gcc14-64-msys2-g++23"
+                            >
+                        C++23 (GCC 14-64, msys2)
+                    </option>
+                    <option value="csharp.dotnet-core"
+                            >
+                        C# 8
+                    </option>
+                    <option value="csharp.dotnet-sdk-6"
+                            >
+                        C# 10
+                    </option>
+                    <option value="csharp.mono"
+                            >
+                        Mono C#
+                    </option>
+                    <option value="d"
+                            >
+                        D
+                    </option>
+                    <option value="go"
+                            >
+                        Go
+                    </option>
+                    <option value="haskell.ghc"
+                            >
+                        Haskell
+                    </option>
+                    <option value="java21"
+                            >
+                        Java 21
+                    </option>
+                    <option value="java8"
+                            >
+                        Java 8
+                    </option>
+                    <option value="kotlin17"
+                            >
+                        Kotlin 1.7
+                    </option>
+                    <option value="kotlin19"
+                            >
+                        Kotlin 1.9
+                    </option>
+                    <option value="ocaml"
+                            >
+                        OCaml
+                    </option>
+                    <option value="pas.dpr"
+                            >
+                        Delphi
+                    </option>
+                    <option value="pas.fpc"
+                            >
+                        FPC
+                    </option>
+                    <option value="pas.pascalabc"
+                            >
+                        PascalABC.NET
+                    </option>
+                    <option value="perl.5"
+                            >
+                        Perl
+                    </option>
+                    <option value="php.5"
+                            >
+                        PHP
+                    </option>
+                    <option value="python.2"
+                            >
+                        Python 2
+                    </option>
+                    <option value="python.3"
+                            selected>
+                        Python 3
+                    </option>
+                    <option value="python.pypy2"
+                            >
+                        PyPy 2
+                    </option>
+                    <option value="python.pypy3"
+                            >
+                        PyPy 3
+                    </option>
+                    <option value="python.pypy3-64"
+                            >
+                        PyPy 3-64
+                    </option>
+                    <option value="ruby.3"
+                            >
+                        Ruby 3
+                    </option>
+                    <option value="rust.2021"
+                            >
+                        Rust 2021
+                    </option>
+                    <option value="scala"
+                            >
+                        Scala
+                    </option>
+                    <option value="v8.3"
+                            >
+                        JavaScript
+                    </option>
+                    <option value="v8.nodejs"
+                            >
+                        Node.js
+                    </option>
+            </select>
+        </div>
+    </div>
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+            
+<style data-nocturne="true" type="text/css">
+
+</style>
+
+    <div class="status-filter-form-part">
+        <div class="setting-name" style="padding-right: 3px;">
+            <label for="comparisonType">Test:</label>
+        </div>
+        <div>
+            <select style="width: 29%; font-size: 0.8em;" name="comparisonType" id="comparisonType">
+                <option value="NOT_USED" >
+                    Not used
+                </option>
+                <option value="LESS_OR_EQUAL" >
+                    &lt;=
+                </option>
+                <option value="EQUAL" >
+                    =
+                </option>
+                <option value="GREATER_OR_EQUAL" selected>
+                    &gt;=
+                </option>
+            </select>
+            <label>
+                <input style="width: 66%; font-size: 0.8em; margin-left: 1px" type="text" name="judgedTestCount" value="10"/>
+            </label>
+        </div>
+    </div>
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+            
+<style data-nocturne="true" type="text/css">
+
+</style>
+
+    <div class="status-filter-form-part">
+        <div class="setting-name">
+            <label for="participantSubstring">Participant<i class="icon-question-sign clickable-title" title="Filters participants by handle or team name.  You can use the ^ character as the beginning marker of a string and $ as the end marker of a string."></i>:</label>
+        </div>
+        <div>
+            <input id="participantSubstring" name="participantSubstring" class="setting-value" value="">
+        </div>
+    </div>
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+                </div>
+
+                <div style="text-align: center; margin: 1em 0 0.1em 0;">
+                    <input type="submit" value="Apply" style="padding: 0 1em; width: 8em;"/>
+                    <input type="button" class="reset-button" value="Reset" style="padding: 0 1em; margin-left: 2em; width: 8em;"/>
+                </div>
+            </form>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".status-filter .reset-button").click(function () {
+            $("form.status-filter input.action").val("resetStatusFilter");
+            $("form.status-filter").submit();
+            });
+        });
+    </script>
+    </div>
+
+<script data-nocturne="true"> $(function () {
+
+}); </script>
+
+</div>
+                        <div id="pageContent" class="content-with-sidebar">
+                    <div class="second-level-menu">
+
+<ul class="second-level-menu-list">
+        <li class="current selectedLava"><a
+                                        href="/problemset">Main</a></li>
+        <li><a
+                                        href="/problemsets/acmsguru">acmsguru</a></li>
+</ul>
+<span style="position:relative;vertical-align:top;">|</span>
+
+<ul class="second-level-menu-list">
+        <li><a
+                                        href="/problemset">Problems</a></li>
+        <li><a
+                                        href="/problemset/submit">Submit</a></li>
+        <li class="current selectedLava"><a
+                                        href="/problemset/status">Status</a></li>
+        <li><a
+                                        href="/problemset/standings">Standings</a></li>
+        <li><a
+                                        href="/problemset/customtest">Custom test</a></li>
+</ul>
+</div>
+
+    <script type="application/javascript">
+        $(function() {
+            $(".closeUserList").click(function() {
+                document.location = Codeforces.updateUrlParameter(document.location.href, "list", "");
+                return false;
+            });
+        })
+    </script>
+
+    <div style="margin: 0 auto; text-align: center; padding: 1.5em 0 0.5em 0; font-size: 1.25em;">                Problem 4A - Watermelon<br/>
+</div>
+
+
+    <form class="reset-status-filter" action="" method="post"><input type='hidden' name='csrf_token' value='5b6256fe271f2ce8cc8fb28d8917a93f'/>
+        <input type="hidden" name="action" value="resetStatusFilter"/>
+        <div style="margin-bottom: 0.25em; font-size: 1.1rem; font-weight: bold;">
+            Status filter is used, click <a href="#" class="reset-status-filter-link">here</a> to reset
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        $(".reset-status-filter-link").click(function () {
+            $(this).parent().parent().submit();
+        });
+        });
+    </script>
+
+
+<style type="text/css">
+    .diagnosticsHint {
+        cursor: pointer;
+    }
+    .status-party-cell {
+        text-align:left;
+        padding-left:1em;
+    }
+</style>
+
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                Contest status
+                        <i style="cursor: pointer; font-size: 1.5rem; position: relative; top: 2px;" class="icon-list userListMarker"></i>
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//codeforces.org/s/89536/images/icons/control.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//codeforces.org/s/89536/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="status-frame-datatable">
+<tr class="first-row">
+    <th style="width:6em;">#</th>
+    <th>When</th>
+    <th style="text-align:center;">Who</th>
+    <th>Problem</th>
+    <th>Lang</th>
+    <th>Verdict</th>
+        <th style="width: 1em;">Time</th>
+        <th style="width: 1em;">Memory</th>
+</tr>
+
+
+<tr data-submission-id="53566688" data-a="230067173115035667" partyMemberIds=";1152522;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/53566688" submissionId="53566688">53566688</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/30/2019 15:49</span>
+    </td>
+    <td class="status-party-cell" data-participantId="24744557">
+<a href="/profile/20chan" title="Unrated, 20chan" class="rated-user user-black">20chan</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1152522;" class="status-cell status-small status-verdict-cell" submissionId="53566688" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="53566688" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1152522;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                216&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="43873639" data-a="188435844661510163" partyMemberIds=";810963;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/43873639" submissionId="43873639">43873639</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Oct/06/2018 02:07</span>
+    </td>
+    <td class="status-party-cell" data-participantId="20191982">
+<a href="/profile/CuteLove" title="Unrated, CuteLove" class="rated-user user-black">CuteLove</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";810963;" class="status-cell status-small status-verdict-cell" submissionId="43873639" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="43873639" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";810963;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                248&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="251138023" data-a="3038258606764982291" partyMemberIds=";3861939;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/251138023" submissionId="251138023">251138023</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Mar/13/2024 21:22</span>
+    </td>
+    <td class="status-party-cell" data-participantId="176966080">
+<a href="/profile/p0tat0e" title="Unrated, p0tat0e" class="rated-user user-black">p0tat0e</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3861939;" class="status-cell status-small status-verdict-cell" submissionId="251138023" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="251138023" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3861939;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="201240374" data-a="864320824964808723" partyMemberIds=";2954015;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/201240374" submissionId="201240374">201240374</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/08/2023 13:02</span>
+    </td>
+    <td class="status-party-cell" data-participantId="153460023">
+<a href="/profile/sawei" title="Unrated, sawei" class="rated-user user-black">sawei</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2954015;" class="status-cell status-small status-verdict-cell" submissionId="201240374" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="201240374" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2954015;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="90243548" data-a="387593087335006227" partyMemberIds=";1605718;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/90243548" submissionId="90243548">90243548</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Aug/17/2020 18:36</span>
+    </td>
+    <td class="status-party-cell" data-participantId="98925843">
+<a href="/profile/om17.09" title="Newbie om17.09" class="rated-user user-gray">om17.09</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1605718;" class="status-cell status-small status-verdict-cell" submissionId="90243548" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="90243548" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1605718;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                248&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="95964268" data-a="412163392644579347" partyMemberIds=";1704267;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/95964268" submissionId="95964268">95964268</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Oct/19/2020 13:33</span>
+    </td>
+    <td class="status-party-cell" data-participantId="104033514">
+<a href="/profile/jhchong" title="Unrated, jhchong" class="rated-user user-black">jhchong</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1704267;" class="status-cell status-small status-verdict-cell" submissionId="95964268" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="95964268" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1704267;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                216&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="89349577" data-a="383753511126433811" partyMemberIds=";659141;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/89349577" submissionId="89349577">89349577</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Aug/08/2020 19:11</span>
+    </td>
+    <td class="status-party-cell" data-participantId="98453538">
+<a href="/profile/SkSiam" title="Unrated, SkSiam" class="rated-user user-black">SkSiam</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";659141;" class="status-cell status-small status-verdict-cell" submissionId="89349577" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="89349577" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";659141;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                218&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                6500&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="145718948" data-a="625858116067524623" partyMemberIds=";2445820;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/145718948" submissionId="145718948">145718948</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Feb/09/2022 09:51</span>
+    </td>
+    <td class="status-party-cell" data-participantId="128131304">
+<a href="/profile/rahimovsheroz2009" title="Newbie rahimovsheroz2009" class="rated-user user-gray">rahimovsheroz2009</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2445820;" class="status-cell status-small status-verdict-cell" submissionId="145718948" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="145718948" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2445820;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">15</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="49444691" data-a="212363330805825555" partyMemberIds=";888832;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/49444691" submissionId="49444691">49444691</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Feb/04/2019 04:36</span>
+    </td>
+    <td class="status-party-cell" data-participantId="22834999">
+<a href="/profile/BLP" title="Pupil BLP" class="rated-user user-green">BLP</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";888832;" class="status-cell status-small status-verdict-cell" submissionId="49444691" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="49444691" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";888832;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                248&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="94300986" data-a="405019650850553875" partyMemberIds=";1668472;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/94300986" submissionId="94300986">94300986</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Sep/30/2020 17:41</span>
+    </td>
+    <td class="status-party-cell" data-participantId="103200828">
+<a href="/profile/revozzzz" title="Unrated, revozzzz" class="rated-user user-black">revozzzz</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1668472;" class="status-cell status-small status-verdict-cell" submissionId="94300986" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="94300986" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1668472;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                218&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="96008165" data-a="412351928823971859" partyMemberIds=";1704267;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/96008165" submissionId="96008165">96008165</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Oct/19/2020 20:08</span>
+    </td>
+    <td class="status-party-cell" data-participantId="104033514">
+<a href="/profile/jhchong" title="Unrated, jhchong" class="rated-user user-black">jhchong</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1704267;" class="status-cell status-small status-verdict-cell" submissionId="96008165" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="96008165" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1704267;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                216&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="129701142" data-a="557062163143852051" partyMemberIds=";2222177;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/129701142" submissionId="129701142">129701142</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Sep/23/2021 21:03</span>
+    </td>
+    <td class="status-party-cell" data-participantId="120671816">
+<a href="/profile/audreyliu6" title="Unrated, audreyliu6" class="rated-user user-black">audreyliu6</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2222177;" class="status-cell status-small status-verdict-cell" submissionId="129701142" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="129701142" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2222177;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                124&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                6600&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="130071056" data-a="558650931676184595" partyMemberIds=";2222937;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/130071056" submissionId="130071056">130071056</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Sep/28/2021 11:42</span>
+    </td>
+    <td class="status-party-cell" data-participantId="120692635">
+<a href="/profile/Aaron01" title="Unrated, Aaron01" class="rated-user user-black">Aaron01</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2222937;" class="status-cell status-small status-verdict-cell" submissionId="130071056" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="130071056" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2222937;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                124&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                6600&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="251166767" data-a="3041100990351671315" partyMemberIds=";3865238;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/251166767" submissionId="251166767">251166767</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Mar/14/2024 02:56</span>
+    </td>
+    <td class="status-party-cell" data-participantId="176980775">
+<a href="/profile/aziz156" title="Unrated, aziz156" class="rated-user user-black">aziz156</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3865238;" class="status-cell status-small status-verdict-cell" submissionId="251166767" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="251166767" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3865238;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="104495459" data-a="448804578985508883" partyMemberIds=";1707206;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/104495459" submissionId="104495459">104495459</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jan/16/2021 12:58</span>
+    </td>
+    <td class="status-party-cell" data-participantId="106676938">
+<a href="/profile/prem209kumar" title="Newbie prem209kumar" class="rated-user user-gray">prem209kumar</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1707206;" class="status-cell status-small status-verdict-cell" submissionId="104495459" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="104495459" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1707206;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                156&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="192099747" data-a="825062130934874131" partyMemberIds=";3067313;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/192099747" submissionId="192099747">192099747</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Feb/04/2023 08:16</span>
+    </td>
+    <td class="status-party-cell" data-participantId="149203568">
+<a href="/profile/Iniyan" title="Unrated, Iniyan" class="rated-user user-black">Iniyan</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3067313;" class="status-cell status-small status-verdict-cell" submissionId="192099747" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="192099747" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3067313;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                4200&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="265899712" data-a="4878873228082151443" partyMemberIds=";4020843;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/265899712" submissionId="265899712">265899712</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jun/15/2024 17:59</span>
+    </td>
+    <td class="status-party-cell" data-participantId="184422053">
+<a href="/profile/RAFE_07" title="Newbie RAFE_07" class="rated-user user-gray">RAFE_07</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";4020843;" class="status-cell status-small status-verdict-cell" submissionId="265899712" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="265899712" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";4020843;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                154&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                1000&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="166699845" data-a="715970382523269139" partyMemberIds=";2682157;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/166699845" submissionId="166699845">166699845</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Aug/02/2022 16:43</span>
+    </td>
+    <td class="status-party-cell" data-participantId="137650208">
+<a href="/profile/Nyanthecat9000" title="Unrated, Nyanthecat9000" class="rated-user user-black">Nyanthecat9000</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2682157;" class="status-cell status-small status-verdict-cell" submissionId="166699845" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="166699845" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2682157;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="172598729" data-a="741305896386166803" partyMemberIds=";2789082;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/172598729" submissionId="172598729">172598729</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Sep/18/2022 22:41</span>
+    </td>
+    <td class="status-party-cell" data-participantId="140476405">
+<a href="/profile/ghadeer.kelaany" title="Unrated, ghadeer.kelaany" class="rated-user user-black">ghadeer.kelaany</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2789082;" class="status-cell status-small status-verdict-cell" submissionId="172598729" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="172598729" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2789082;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="188605072" data-a="810052616099725331" partyMemberIds=";3013364;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/188605072" submissionId="188605072">188605072</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jan/09/2023 18:17</span>
+    </td>
+    <td class="status-party-cell" data-participantId="147553525">
+<a href="/profile/lakshyakumarrocks" title="Newbie lakshyakumarrocks" class="rated-user user-gray">lakshyakumarrocks</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/4/standings/participant/147553525#p147553525'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3013364;" class="status-cell status-small status-verdict-cell" submissionId="188605072" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="188605072" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3013364;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="235197669" data-a="1197681965843611663" partyMemberIds=";3654099;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/235197669" submissionId="235197669">235197669</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Dec/01/2023 12:38</span>
+    </td>
+    <td class="status-party-cell" data-participantId="168963214">
+<a href="/profile/raindusha" title="Unrated, raindusha" class="rated-user user-black">raindusha</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3654099;" class="status-cell status-small status-verdict-cell" submissionId="235197669" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="235197669" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3654099;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">15</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="279882417" data-a="5802398777062981651" partyMemberIds=";4193264;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/279882417" submissionId="279882417">279882417</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Sep/05/2024 07:18</span>
+    </td>
+    <td class="status-party-cell" data-participantId="191149831">
+<a href="/profile/apoorva_brrr" title="Unrated, apoorva_brrr" class="rated-user user-black">apoorva_brrr</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";4193264;" class="status-cell status-small status-verdict-cell" submissionId="279882417" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="279882417" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";4193264;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                154&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="93109707" data-a="399903146505142291" partyMemberIds=";1653490;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/93109707" submissionId="93109707">93109707</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Sep/18/2020 13:54</span>
+    </td>
+    <td class="status-party-cell" data-participantId="102648799">
+<a href="/profile/sakuyato" title="Unrated, sakuyato" class="rated-user user-black">sakuyato</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1653490;" class="status-cell status-small status-verdict-cell" submissionId="93109707" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="93109707" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1653490;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                186&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="95441293" data-a="409917232122953747" partyMemberIds=";1658271;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/95441293" submissionId="95441293">95441293</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Oct/13/2020 18:36</span>
+    </td>
+    <td class="status-party-cell" data-participantId="102812021">
+<a href="/profile/operation_education" title="Unrated, operation_education" class="rated-user user-black">operation_education</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1658271;" class="status-cell status-small status-verdict-cell" submissionId="95441293" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="95441293" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1658271;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                216&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="96038041" data-a="412480245266907155" partyMemberIds=";1691549;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/96038041" submissionId="96038041">96038041</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Oct/20/2020 08:34</span>
+    </td>
+    <td class="status-party-cell" data-participantId="103549064">
+<a href="/profile/ZJYTSL" title="Unrated, ZJYTSL" class="rated-user user-black">ZJYTSL</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1691549;" class="status-cell status-small status-verdict-cell" submissionId="96038041" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="96038041" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1691549;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                186&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="103114054" data-a="442871489687978003" partyMemberIds=";1848193;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/103114054" submissionId="103114054">103114054</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jan/03/2021 19:33</span>
+    </td>
+    <td class="status-party-cell" data-participantId="107818985">
+<a href="/profile/viduz" title="Unrated, viduz" class="rated-user user-black">viduz</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1848193;" class="status-cell status-small status-verdict-cell" submissionId="103114054" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="103114054" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1848193;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                186&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="137978114" data-a="592611487193759763" partyMemberIds=";2349793;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/137978114" submissionId="137978114">137978114</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Dec/04/2021 13:55</span>
+    </td>
+    <td class="status-party-cell" data-participantId="124437907">
+<a href="/profile/pavel_programmist228.007" title="Unrated, pavel_programmist228.007" class="rated-user user-black">pavel_programmist228.007</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2349793;" class="status-cell status-small status-verdict-cell" submissionId="137978114" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="137978114" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2349793;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="150025305" data-a="644353778547425299" partyMemberIds=";2485567;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/150025305" submissionId="150025305">150025305</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Mar/18/2022 16:08</span>
+    </td>
+    <td class="status-party-cell" data-participantId="129814470">
+<a href="/profile/pancherpulakal" title="Unrated, pancherpulakal" class="rated-user user-black">pancherpulakal</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2485567;" class="status-cell status-small status-verdict-cell" submissionId="150025305" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="150025305" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2485567;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="206363614" data-a="886324973214367763" partyMemberIds=";3254370;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/206363614" submissionId="206363614">206363614</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/18/2023 19:13</span>
+    </td>
+    <td class="status-party-cell" data-participantId="155716808">
+<a href="/profile/shouravb77484" title="Unrated, shouravb77484" class="rated-user user-black">shouravb77484</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3254370;" class="status-cell status-small status-verdict-cell" submissionId="206363614" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="206363614" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3254370;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="220969806" data-a="949058090173464595" partyMemberIds=";2930766;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/220969806" submissionId="220969806">220969806</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Aug/29/2023 15:55</span>
+    </td>
+    <td class="status-party-cell" data-participantId="146247856">
+<a href="/profile/zyadAmr" title="Unrated, zyadAmr" class="rated-user user-black">zyadAmr</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2930766;" class="status-cell status-small status-verdict-cell" submissionId="220969806" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="220969806" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2930766;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="232373125" data-a="998034972344320019" partyMemberIds=";3551549;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/232373125" submissionId="232373125">232373125</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Nov/11/2023 15:23</span>
+    </td>
+    <td class="status-party-cell" data-participantId="167759292">
+<a href="/profile/ahmmedahmd02" title="Newbie ahmmedahmd02" class="rated-user user-gray">ahmmedahmd02</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3551549;" class="status-cell status-small status-verdict-cell" submissionId="232373125" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="232373125" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3551549;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="234532962" data-a="1127866954619551763" partyMemberIds=";3137954;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/234532962" submissionId="234532962">234532962</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Nov/27/2023 07:10</span>
+    </td>
+    <td class="status-party-cell" data-participantId="151432911">
+<a href="/profile/21b01a0565" title="Newbie 21b01a0565" class="rated-user user-gray">21b01a0565</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3137954;" class="status-cell status-small status-verdict-cell" submissionId="234532962" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="234532962" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3137954;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="17161760" data-a="73709197941800979" partyMemberIds=";55554;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/17161760" submissionId="17161760">17161760</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/04/2016 20:34</span>
+    </td>
+    <td class="status-party-cell" data-participantId="1253205">
+<a href="/profile/TheMonkeyPirate" title="Pupil TheMonkeyPirate" class="rated-user user-green">TheMonkeyPirate</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";55554;" class="status-cell status-small status-verdict-cell" submissionId="17161760" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="17161760" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";55554;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                124&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                4500&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="69761940" data-a="299625250805514259" partyMemberIds=";1390609;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/69761940" submissionId="69761940">69761940</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jan/29/2020 18:36</span>
+    </td>
+    <td class="status-party-cell" data-participantId="32351729">
+<a href="/profile/Atharva2002" title="Newbie Atharva2002" class="rated-user user-gray">Atharva2002</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1390609;" class="status-cell status-small status-verdict-cell" submissionId="69761940" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="69761940" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1390609;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                218&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="70228996" data-a="301631241050914829" partyMemberIds=";307479;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/70228996" submissionId="70228996">70228996</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Feb/04/2020 14:55</span>
+    </td>
+    <td class="status-party-cell" data-participantId="12089541">
+<a href="/profile/Nakalin" title="Unrated, Nakalin" class="rated-user user-black">Nakalin</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";307479;" class="status-cell status-small status-verdict-cell" submissionId="70228996" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="70228996" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";307479;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">13</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                218&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="151496644" data-a="650673131433754643" partyMemberIds=";2448824;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/151496644" submissionId="151496644">151496644</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Mar/31/2022 15:26</span>
+    </td>
+    <td class="status-party-cell" data-participantId="128252052">
+<a href="/profile/Mashrur_Azim_Aornab" title="Newbie Mashrur_Azim_Aornab" class="rated-user user-gray">Mashrur_Azim_Aornab</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2448824;" class="status-cell status-small status-verdict-cell" submissionId="151496644" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="151496644" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2448824;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="161417395" data-a="693282432530513939" partyMemberIds=";2598227;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/161417395" submissionId="161417395">161417395</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jun/21/2022 20:50</span>
+    </td>
+    <td class="status-party-cell" data-participantId="135170234">
+<a href="/profile/ARMAN_1999" title="Unrated, ARMAN_1999" class="rated-user user-black">ARMAN_1999</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2598227;" class="status-cell status-small status-verdict-cell" submissionId="161417395" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="161417395" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2598227;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="179499963" data-a="770946470718210067" partyMemberIds=";2877869;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/179499963" submissionId="179499963">179499963</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Nov/06/2022 09:42</span>
+    </td>
+    <td class="status-party-cell" data-participantId="143348095">
+<a href="/profile/anjali_sanoojarani" title="Unrated, anjali_sanoojarani" class="rated-user user-black">anjali_sanoojarani</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2877869;" class="status-cell status-small status-verdict-cell" submissionId="179499963" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="179499963" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2877869;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="184253859" data-a="791364298566795283" partyMemberIds=";2886786;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/184253859" submissionId="184253859">184253859</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Dec/07/2022 20:45</span>
+    </td>
+    <td class="status-party-cell" data-participantId="145484209">
+<a href="/profile/ranjithtk" title="Unrated, ranjithtk" class="rated-user user-black">ranjithtk</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2886786;" class="status-cell status-small status-verdict-cell" submissionId="184253859" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="184253859" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2886786;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="188604818" data-a="810051525178032147" partyMemberIds=";3013364;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/188604818" submissionId="188604818">188604818</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jan/09/2023 18:15</span>
+    </td>
+    <td class="status-party-cell" data-participantId="147553525">
+<a href="/profile/lakshyakumarrocks" title="Newbie lakshyakumarrocks" class="rated-user user-gray">lakshyakumarrocks</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/4/standings/participant/147553525#p147553525'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3013364;" class="status-cell status-small status-verdict-cell" submissionId="188604818" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="188604818" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3013364;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="74180263" data-a="318601803593678867" partyMemberIds=";1435740;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/74180263" submissionId="74180263">74180263</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Mar/24/2020 11:59</span>
+    </td>
+    <td class="status-party-cell" data-participantId="34422768">
+<a href="/profile/vijay00751" title="Unrated, vijay00751" class="rated-user user-black">vijay00751</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1435740;" class="status-cell status-small status-verdict-cell" submissionId="74180263" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="74180263" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1435740;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                218&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="83124447" data-a="357016781363085331" partyMemberIds=";832061;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/83124447" submissionId="83124447">83124447</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jun/08/2020 13:27</span>
+    </td>
+    <td class="status-party-cell" data-participantId="24959198">
+<a href="/profile/DUDY" title="Newbie DUDY" class="rated-user user-gray">DUDY</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";832061;" class="status-cell status-small status-verdict-cell" submissionId="83124447" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="83124447" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";832061;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                218&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="188340377" data-a="808915759731310611" partyMemberIds=";2807198;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/188340377" submissionId="188340377">188340377</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jan/07/2023 19:01</span>
+    </td>
+    <td class="status-party-cell" data-participantId="142945654">
+<a href="/profile/philipgeo" title="Unrated, philipgeo" class="rated-user user-black">philipgeo</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2807198;" class="status-cell status-small status-verdict-cell" submissionId="188340377" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="188340377" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2807198;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="81283087" data-a="349108200382922765" partyMemberIds=";1452581;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/81283087" submissionId="81283087">81283087</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/24/2020 17:59</span>
+    </td>
+    <td class="status-party-cell" data-participantId="66047130">
+<a href="/profile/piyushbag" title="Newbie piyushbag" class="rated-user user-gray">piyushbag</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1452581;" class="status-cell status-small status-verdict-cell" submissionId="81283087" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="81283087" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1452581;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">13</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                216&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="90243966" data-a="387594882631335955" partyMemberIds=";1605718;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/90243966" submissionId="90243966">90243966</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Aug/17/2020 18:41</span>
+    </td>
+    <td class="status-party-cell" data-participantId="98925843">
+<a href="/profile/om17.09" title="Newbie om17.09" class="rated-user user-gray">om17.09</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1605718;" class="status-cell status-small status-verdict-cell" submissionId="90243966" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="90243966" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1605718;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                186&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="97356213" data-a="418141750897410067" partyMemberIds=";1718363;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/97356213" submissionId="97356213">97356213</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Nov/01/2020 16:29</span>
+    </td>
+    <td class="status-party-cell" data-participantId="104566538">
+<a href="/profile/Tigran25" title="Unrated, Tigran25" class="rated-user user-black">Tigran25</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";1718363;" class="status-cell status-small status-verdict-cell" submissionId="97356213" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="97356213" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1718363;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                218&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="134047296" data-a="575728752437231635" partyMemberIds=";2294387;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/134047296" submissionId="134047296">134047296</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Nov/02/2021 14:55</span>
+    </td>
+    <td class="status-party-cell" data-participantId="122753544">
+<a href="/profile/ThanksGod" title="Newbie ThanksGod" class="rated-user user-gray">ThanksGod</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";2294387;" class="status-cell status-small status-verdict-cell" submissionId="134047296" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="134047296" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";2294387;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                4200&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="195065091" data-a="837798186436263955" partyMemberIds=";3104111;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/195065091" submissionId="195065091">195065091</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Feb/26/2023 22:30</span>
+    </td>
+    <td class="status-party-cell" data-participantId="150594479">
+<a href="/profile/PMSK" title="Newbie PMSK" class="rated-user user-gray">PMSK</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3104111;" class="status-cell status-small status-verdict-cell" submissionId="195065091" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="195065091" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3104111;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="197413254" data-a="847883469726941203" partyMemberIds=";3145178;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/197413254" submissionId="197413254">197413254</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Mar/14/2023 20:31</span>
+    </td>
+    <td class="status-party-cell" data-participantId="151661908">
+<a href="/profile/sondhihardik" title="Newbie sondhihardik" class="rated-user user-gray">sondhihardik</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";3145178;" class="status-cell status-small status-verdict-cell" submissionId="197413254" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="197413254" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";3145178;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                92&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr class="last-row" data-submission-id="300083014" data-a="7035590450178162707" partyMemberIds=";4279697;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/problemset/submission/4/300083014" submissionId="300083014">300083014</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Jan/07/2025 21:30</span>
+    </td>
+    <td class="status-party-cell" data-participantId="200856175">
+<a href="/profile/ambujkumar9920" title="Unrated, ambujkumar9920" class="rated-user user-black">ambujkumar9920</a>    </td>
+    <td class="status-small" data-problemId="13">
+                <a href="/problemset/problem/4/A">
+                    4A - Watermelon
+                </a>
+    </td>
+    <td>
+        Python 3
+    </td>
+    <td partyMemberIds=";4279697;" class="status-cell status-small status-verdict-cell" submissionId="300083014" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="300083014" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";4279697;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">19</span></span></span><!--
+                -->
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                154&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+    <div class="information-box" style="display: none;">
+        <h5>Judgement protocol</h5>
+        <hr/>
+        <div class="protocol monospaced" style="font-size:1.0rem;margin:1em 0;width:50em;max-height:30em;overflow:auto;"><pre>&nbsp;</pre></div>
+    </div>
+
+<div class="test-for-popup-proto" style="display:none;">
+    <div class="test-header">
+        Test: #<span class="test">&nbsp;</span>,
+        time: <span class="time">&nbsp;</span> ms.,
+        memory: <span class="memory">&nbsp;</span> KB,
+        exit code: <span class="exitCode">&nbsp;</span>,
+        checker exit code: <span class="checkerExitCode">&nbsp;</span>,
+        verdict: <span class="verdict">&nbsp;</span>
+    </div>
+    <div style="font-size:1.1rem;">
+        <div class="popup-input-div">
+            <div>Input</div>
+            <pre class="input">&nbsp;</pre>
+        </div>
+        <div class="popup-output-div">
+            <div>Output</div>
+            <pre class="output">&nbsp;</pre>
+        </div>
+        <div class="popup-answer-div">
+            <div>Answer</div>
+            <pre class="answer">&nbsp;</pre>
+        </div>
+        <div class="popup-checker-div">
+            <div>Checker Log</div>
+            <pre class="checker">&nbsp;</pre>
+        </div>
+        <div class="popup-diagnostics-div">
+            <div>Diagnostics</div>
+            <pre class="diagnostics">&nbsp;</pre>
+        </div>
+    </div>
+</div>
+<div class="pagination next-or-prev-prototype" style="float:left; display:none">
+    <a class="arrow prev">&larr;</a>
+    <a class="arrow next">&rarr;</a>
+</div>
+<style>
+    .source-popup-diagnostics {
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    .source-popup-diagnostics .diagnosticsMessageType {
+        color: #E65100;
+    }
+
+    #program-source-text-copy {
+        cursor:pointer;
+        color:blue;
+        text-decoration:underline;
+    }
+</style>
+<div class="source-popup"  style="display:none;width:950px;height:600px;overflow:auto;padding:1em;margin:1em;font-size:1.2rem;">
+    <span class="source-popup-header" style="">&nbsp;</span>
+    <pre style="background-color: #eff0f1;"><code class="source-popup-source prettyprint linenums"><img src="//codeforces.org/s/89536/images/indicator.gif"/></code></pre>
+</div>
+
+<script type="text/javascript">
+    var source = "";
+    $(document).ready(function () {
+        showSubmissionSourceCode = function(submissionId) {
+            $.post("/data/submitSource", {submissionId: submissionId}, function(data) {
+                var nop = $(".next-or-prev-prototype").clone().removeClass("next-or-prev-prototype").addClass("next-or-prev").css("display", "block");
+                Codeforces.facebox(".source-popup:first", "//codeforces.org/s/89536");
+                var sourcePre = $("#facebox").find(".source-popup-source:first");
+                if (data["prettifyClass"]) {
+                    sourcePre.addClass(data["prettifyClass"]);
+                }
+                // sourcePre.empty();
+                // sourcePre.append($("<code></code>").text(data["source"]));
+                if (data.diagnosticsMessage) {
+                    var icon = "<i title=\"Diagnostics Hint\" class=\"icon-warning-sign diagnostics-icon\"></i> ";
+                    $("#facebox .source-popup").prepend($("<div class=\"source-popup-diagnostics\"></div>").html(icon + data.diagnosticsMessage));
+                }
+                if (data["source"]) {
+                    sourcePre.text(data["source"]);
+                } else if (data["sourceHtml"]) {
+                    sourcePre.html(data["sourceHtml"]);
+                }
+                sourcePre.removeClass("prettyprinted");
+                var header = "By " + data["partyName"]
+                    + ", contest: " + data["contestName"]
+                    + ", problem: " + data["problemName"]
+                    + ", " + data["verdict"] + ", " + "<a title='Direct Link' href=\"" + data["href"] + "\">#</a>"
+                    + ", " + "<span id=\"program-source-text-copy\" title='Copy' href='#'>Copy</span>";
+                if (data["offerChallenge"] === "true") {
+                    header += ", <a href=\"" + data["challengeLink"] + "\">hack it!</a>";
+                }
+                header += "<hr/>";
+
+                $("#facebox").find(".source-popup-header").html(header);
+                source = data["source"];
+
+                if ($("#facebox").find(".footer .pagination").size() === 0) {
+                    $("#facebox").find(".footer").append(nop);
+                }
+                var p = $("#facebox").find(".footer .pagination");
+
+                if (data["prevId"]) {
+                    p.find(".prev").attr("href", "#").click(function () {
+                        showSubmissionSourceCode(data["prevId"]);
+                        return false;
+                    });
+                }
+                if (data["nextId"]) {
+                    p.find(".next").attr("href", "#").click(function () {
+                        showSubmissionSourceCode(data["nextId"]);
+                        return false;
+                    });
+                }
+
+                prettyPrint();
+                if (data.diagnosticsLine) {
+                    $("#facebox .source-popup code li:nth-child(" + data.diagnosticsLine + ")").css("background", "#E57373");
+                }
+
+                var testCount = data["testCount"] ? parseInt(data["testCount"]) : 0;
+                if (testCount > 0) {
+                    $("#facebox").find(".source-popup").append("<hr/><h4>&rarr;Judgement Protocol</h4>");
+                }
+
+                // TODO: temporary fix
+                testCount = 0;
+
+                const ACCEPTED_PREFIX = "accepted#";
+                const testIndices = [];
+                for (const key of Object.keys(data)) {
+                    if (key.indexOf(ACCEPTED_PREFIX) === 0) {
+                        testIndices.push(Number.parseInt(key.substring(ACCEPTED_PREFIX.length)));
+                        testCount++;
+                    }
+                }
+                testIndices.sort((a, b) => a - b);
+
+                for (var i = 0; i < testCount; i++) {
+                    var test = testIndices[i];
+                    if (data["verdict#" + test]) {
+                        var e = $("div.test-for-popup-proto").clone()
+                            .removeClass("test-for-popup-proto").addClass("test-for-popup")
+                            .css("display", "block");
+                        e.find(".test").text(test);
+                        e.find(".time").text(data["timeConsumed#" + test]);
+                        e.find(".memory").text(data["memoryConsumed#" + test] ? parseInt(data["memoryConsumed#" + test]) / 1024 : "");
+                        e.find(".exitCode").text(data["exitCode#" + test]);
+                        if (data["winntStatus#" + test]) {
+                            e.find(".exitCode").text(e.find(".exitCode").text() + " (" + data["winntStatus#" + test] + ")");
+                        }
+
+                        e.find(".checkerExitCode").text(data["checkerExitCode#" + test]);
+                        e.find(".verdict").text(data["verdict#" + test]);
+
+                        if (data["input#" + test]) {
+                            e.find(".input").text(data["input#" + test]);
+                        } else {
+                            e.find(".popup-input-div").hide();
+                        }
+
+                        if (data["output#" + test]) {
+                            e.find(".output").text(data["output#" + test]);
+                        } else {
+                            e.find(".popup-output-div").hide();
+                        }
+
+                        if (data["answer#" + test]) {
+                            e.find(".answer").text(data["answer#" + test]);
+                        } else {
+                            e.find(".popup-answer-div").hide();
+                        }
+
+                        if (data["checkerStdoutAndStderr#" + test]) {
+                            e.find(".checker").text(data["checkerStdoutAndStderr#" + test] ? data["checkerStdoutAndStderr#" + test] : " ");
+                        } else {
+                            e.find(".popup-checker-div").hide();
+                        }
+
+                        if (data["diagnostics#" + test]) {
+                            e.find(".diagnostics").text(data["diagnostics#" + test]);
+                        } else {
+                            e.find(".popup-diagnostics-div").hide();
+                        }
+                        $("#facebox").find(".source-popup").append(e);
+                    }
+                }
+            }, "json");
+        };
+
+        $(".prettyprint.source-popup-source").each(function() {
+            var clipboard = new Clipboard('#program-source-text-copy', {
+                text: function(trigger) {
+                    return source;
+                }
+            });
+
+            clipboard.on('success', function(e) {
+                Codeforces.showMessage("The source code has been copied into the clipboard");
+                e.clearSelection();
+            });
+        });
+
+        $(".change-participant-type-link").click(function () {
+            var contestId = $(this).attr("data-contestId");
+            var targetParticipantId = $(this).attr("data-participantId");
+
+            var changeParticipantType = function () {
+                $.post("/data/changeParticipantType",
+                        { contestId: contestId, targetParticipantId: targetParticipantId },
+                        function(response) {
+                            if (response.success == "true") {
+                                Codeforces.reload();
+                            } else {
+                                Codeforces.showMessage("Changing participant type is failed");
+                            }
+                        },
+                        "json"
+                );
+            };
+
+            Codeforces.confirm(
+                    "Are you sure you want to change participant type from virtual to practice (this operation is not reversible and may take a few seconds)?", changeParticipantType, function () { }, "OK", "No"
+            );
+
+            return false;
+        });
+
+        $(".participant-devirtualize-link").click(function () {
+            var contestId = $(this).attr("data-contestId");
+            var targetParticipantId = $(this).attr("data-participantId");
+
+            var changeParticipantType = function () {
+                $.post("/data/changeParticipantType",
+                        { action: "devirtualize", contestId: contestId, targetParticipantId: targetParticipantId },
+                        function(response) {
+                            if (response.success == "true") {
+                                Codeforces.reload();
+                            } else {
+                                Codeforces.showMessage("Changing participant type is failed");
+                            }
+                        },
+                        "json"
+                );
+            };
+
+            Codeforces.confirm(
+                    "Are you sure you want to devirtualize this participant (this operation is not reversible)?", changeParticipantType, function () { }, "OK", "No"
+            );
+
+            return false;
+        });
+    });
+</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            window.diagnosticsIconHtml = "<i title=\"Diagnostics Hint\" class=\"icon-warning-sign diagnosticsHint diagnostics-icon\"></i>";
+            window.diagnosticsWaitingIconHtml = "<i title=\"Waiting for diagnostics\" class=\"icon-question-sign\"></i>";
+
+            $("a.information-box-link").click(function () {
+                var submissionId = $(this).attr("submissionId");
+                $.post("/data/judgeProtocol", {submissionId: submissionId}, function (data) {
+                    if (data) {
+                        Codeforces.facebox(".information-box:first", "//codeforces.org/s/89536");
+                        $("#facebox .information-box .protocol pre").text(data);
+                    }
+                }, "json");
+                return false;
+            });
+
+            function isWaitingVerdictString(verdictString) {
+                return !verdictString || verdictString == "null" || verdictString == "TESTING" || verdictString == "SUBMITTED";
+            }
+
+            function updateVerdictByKey(submission) {
+                if (submission.t != "s") {
+                    return;
+                }
+                var mode = "PROBLEMSET";
+
+                var a = submission.d[0];
+                var id = submission.d[1];
+                var contestId = submission.d[2];
+                var problemId = submission.d[3];
+                var testset = submission.d[4];
+                var points = submission.d[5];
+                var verdictString = submission.d[6];
+                var passedTestCount = submission.d[7];
+                var judgedTestCount = submission.d[8];
+                var timeConsumed = submission.d[9];
+                var memoryConsumed = submission.d[10];
+                var participantId = submission.d[11];
+                var verdict = preparedVerdictFormats[submission.d[12]];
+                var enCreationTime = submission.d[13];
+                var ruCreationTime = submission.d[14];
+                var relativeTime = submission.d[15];
+                var lang = submission.d[16];
+                var diagnostics = submission.d[17];
+                var creationTimeStr = ("en" == "en" ? enCreationTime : ruCreationTime);
+
+                var onlyContestId = -1;
+
+
+                if ($(".status-frame-datatable tr[data-submission-id=" + id + "]").length == 0
+                    && false
+                    && (onlyContestId < 0 || contestId == onlyContestId)) {
+                    if (50 > 0 && (onlyContestId != -1 || !Codeforces.isGym(contestId))) {
+                        $.post("/data/contests", {action: "getProblemName", mode: mode, contestId: contestId, problemId: problemId, communityCode: ""}, function(result) {
+                            if (result["success"] == "true") {
+                                var problemName = result["problemName"];
+                                $.post("/data/contests", {action: "getPartyName", contestId: contestId, participantId: participantId}, function(result) {
+                                    if (result["success"] == "true") {
+                                        var partyName = result["partyName"];
+
+                                        var tdSubmissionId = "<td>" + id + "</td>";
+                                        var tdCreationTime = "<td class='status-small'>" + creationTimeStr + "</td>";
+                                        var tdPartyName = "<td class='status-party-cell' data-participantId='" + participantId + "'>" + partyName + "</td>";
+                                        var tdProblemName = "<td class='status-small' data-problemId='" + problemId + "'>" + problemName + "</td>";
+                                        var tdLang = "<td>" + lang + "</td>";
+                                        var tdVerdict = "<td class='status-cell status-small status-verdict-cell' submissionId='" + id + "'>" + verdict + "</td>";
+                                        var tdTime = "<td class='time-consumed-cell'>" + timeConsumed + "&nbsp;ms</td>";
+                                        var tdMemory = "<td class='memory-consumed-cell'>" + Math.floor(memoryConsumed / 1024) + "&nbsp;KB</td>";
+
+                                        var tr = $("<tr data-submission-id='" + id + "' data-a='" + a + "'>"
+                                            + tdSubmissionId
+                                            + tdCreationTime
+                                            + tdPartyName
+                                            + tdProblemName
+                                            + tdLang
+                                            + tdVerdict
+                                            + tdTime
+                                            + tdMemory
+                                            + "</tr>");
+
+                                        if (judgedTestCount != null && judgedTestCount != undefined) {
+                                            tr.find(".verdict-format-judged").text(judgedTestCount);
+                                        }
+                                        if (passedTestCount != null && passedTestCount != undefined) {
+                                            tr.find(".verdict-format-passed").text(passedTestCount);
+                                        }
+                                        if (points != null && points != undefined) {
+                                            tr.find(".verdict-format-points").text(points);
+                                        }
+
+                                        tr.insertAfter($(".status-frame-datatable tr:first-child"));
+                                        $(".status-frame-datatable tr[data-submission-id=" + id + "]").slice(1).remove();
+                                        Codeforces.updateDatatables();
+
+                                        $(".datatable").each(function () {
+                                            while ($(this).find("tr").length > 50 + 1)
+                                                $(this).find("tr:last-child").remove();
+                                        });
+                                    }
+                                }, "json");
+                            }
+                        }, "json");
+                    }
+                } else {
+                    $(".status-frame-datatable tr[data-submission-id=" + id + "]").each(function () {
+                        if ($(this).attr("data-a") == undefined || $(this).attr("data-a") < a) {
+                            var verdictTd = $(this).find("td.status-verdict-cell");
+
+                            verdictTd.html(verdict);
+
+                            if (judgedTestCount != null && judgedTestCount != undefined) {
+                                verdictTd.find(".verdict-format-judged").text(judgedTestCount);
+                            }
+                            if (passedTestCount != null && passedTestCount != undefined) {
+                                verdictTd.find(".verdict-format-passed").text(passedTestCount);
+                            }
+                            if (points != null && points != undefined) {
+                                verdictTd.find(".verdict-format-points").text(points);
+                            }
+
+                            if (diagnostics === 1 || diagnostics === "1") {
+                                setTimeout(function () {
+                                    $.post("/data/diagnosticsResults", {action: "find", submissionIds: JSON.stringify([id])}, function (ids) {
+                                        for (var i = 0; i < ids.length; i++) {
+                                            verdictTd.html(verdictTd.html() + " " + window.diagnosticsIconHtml);
+                                            window.assignDiagnosticsHintsClickListeners();
+                                        }
+                                    });
+                                }, 1000);
+                            }
+
+                            if (diagnostics === 2 || diagnostics === "2") {
+                                verdictTd.html(verdictTd.html() + " " + window.diagnosticsWaitingIconHtml);
+                            }
+
+                            if (timeConsumed != null && timeConsumed != undefined)
+                                verdictTd.parent().find(".time-consumed-cell").text(timeConsumed + " ms");
+                            else
+                                verdictTd.parent().find(".time-consumed-cell").text("");
+
+                            if (memoryConsumed != null && memoryConsumed != undefined)
+                                verdictTd.parent().find(".memory-consumed-cell").text(Math.floor(memoryConsumed / 1024) + " KB");
+                            else
+                                verdictTd.parent().find(".memory-consumed-cell").text("");
+
+                            var waiting = diagnostics === 2 || diagnostics === "2" || isWaitingVerdictString(verdictString);
+                            verdictTd.attr("waiting", waiting.toString());
+
+                            verdictTd.parent().attr("data-a", a);
+
+                            if ("COMPILATION_ERROR" === verdictString || "PARTIAL" === verdictString) {
+                                window.setVerdictClickable(verdictTd);
+                            }
+                        } else {
+                            // info("Skipped because of a=" + a + " <= " + $(this).attr("data-a"));
+                        }
+                    });
+                }
+            }
+
+            $(".change-time-limit-link").click(function () {
+                var parent = $(this).parent();
+                var contestId = $(this).attr("data-contestId");
+                var problemId = $(this).attr("data-problemId");
+                var newTimeLimit = $(this).attr("data-newTimeLimit");
+
+                var changeTimeLimit = function () {
+                    $.post("/data/changeTimeLimit",
+                        { contestId: contestId, problemId: problemId, newTimeLimit: newTimeLimit },
+                        function(response) {
+                            if (response.success == "true") {
+                                Codeforces.reload();
+                            } else {
+                                Codeforces.showMessage(response.message);
+                            }
+                        },
+                        "json"
+                    );
+                };
+
+                Codeforces.confirm(
+                    "Are you sure you want to change time limit?",
+                    changeTimeLimit, function () { },
+                    "Yes", "No"
+                );
+
+                return false;
+            });
+
+            var waitingCount = $(".status-frame-datatable td[waiting=true]").length;
+            if (window.codeforcesOptions.subscribeServerUrl && waitingCount > 0) {
+                info("There is waitingCount=" + waitingCount + ", starting submissionsEventCatcher...");
+                var channels = [];
+                if (Codeforces.getParticipantChannel()) {
+                    channels.push("s_" + Codeforces.getParticipantChannel());
+                }
+                if (Codeforces.getContestChannel()) {
+                    channels.push("s_" + Codeforces.getContestChannel());
+                }
+                if (Codeforces.getGlobalChannel()) {
+                    channels.push("s_" + Codeforces.getGlobalChannel());
+                }
+
+                if (channels.length > 0) {
+                    info("There are " + channels.length + " channels.");
+                    window.submissionsEventCatcher = new EventCatcher(window.codeforcesOptions.subscribeServerUrl, channels);
+                    channels.forEach(function(channel) {
+                        window.submissionsEventCatcher.subscribe(channel, function(json) {
+                            updateVerdictByKey(json);
+                        });
+                    });
+                    var interval = null;
+                    var testWaitingsDone = function () {
+                        var waitingCount = $(".status-frame-datatable td[waiting=true]").length;
+                        info("There are " + waitingCount + " waitings...");
+                        if (interval && waitingCount === 0) {
+                            info("Stopping submissionsEventCatcher.");
+                            window.submissionsEventCatcher.disconnect();
+                            info("Stopped submissionsEventCatcher.");
+                            clearInterval(interval);
+                            interval = null;
+                        }
+                    }
+                    interval = setInterval(testWaitingsDone, 10000);
+                }
+            }
+        });
+    </script>
+    <script type="application/javascript">
+        $(function() {
+            window.assignDiagnosticsHintsClickListeners = function() {
+                $(".diagnosticsHint").each(function () {
+                    const $icon = $(this);
+                    if (!$icon.attr("data-click")) {
+                        $icon.click(function () {
+                            showSubmissionSourceCode($icon.closest("tr").attr("data-submission-id"));
+                        });
+                        $icon.attr("data-click", "has");
+                    }
+                });
+            }
+            window.assignDiagnosticsHintsClickListeners();
+
+            window.setVerdictClickable = function($td) {
+                const submissionId = $td.attr("submissionId");
+                const text = $td.text();
+                const $a = $("<a href=\"#\"></a>").text(text);
+                $td.html("").append($a);
+                $a.click(function () {
+                    $.post("/data/judgeProtocol", {submissionId: submissionId}, function (data) {
+                        Codeforces.facebox(".information-box:first", "//codeforces.org/s/89536");
+                        $("#facebox").find(".information-box .protocol pre").text(data);
+                    }, "json");
+                    return false;
+                });
+            };
+
+            const viewableSubmissionIds = [
+                        "53566688"
+                            ,
+                        "43873639"
+                            ,
+                        "251138023"
+                            ,
+                        "201240374"
+                            ,
+                        "90243548"
+                            ,
+                        "95964268"
+                            ,
+                        "89349577"
+                            ,
+                        "145718948"
+                            ,
+                        "49444691"
+                            ,
+                        "94300986"
+                            ,
+                        "96008165"
+                            ,
+                        "129701142"
+                            ,
+                        "130071056"
+                            ,
+                        "251166767"
+                            ,
+                        "104495459"
+                            ,
+                        "192099747"
+                            ,
+                        "265899712"
+                            ,
+                        "166699845"
+                            ,
+                        "172598729"
+                            ,
+                        "188605072"
+                            ,
+                        "235197669"
+                            ,
+                        "279882417"
+                            ,
+                        "93109707"
+                            ,
+                        "95441293"
+                            ,
+                        "96038041"
+                            ,
+                        "103114054"
+                            ,
+                        "137978114"
+                            ,
+                        "150025305"
+                            ,
+                        "206363614"
+                            ,
+                        "220969806"
+                            ,
+                        "232373125"
+                            ,
+                        "234532962"
+                            ,
+                        "17161760"
+                            ,
+                        "69761940"
+                            ,
+                        "70228996"
+                            ,
+                        "151496644"
+                            ,
+                        "161417395"
+                            ,
+                        "179499963"
+                            ,
+                        "184253859"
+                            ,
+                        "188604818"
+                            ,
+                        "74180263"
+                            ,
+                        "83124447"
+                            ,
+                        "188340377"
+                            ,
+                        "81283087"
+                            ,
+                        "90243966"
+                            ,
+                        "97356213"
+                            ,
+                        "134047296"
+                            ,
+                        "195065091"
+                            ,
+                        "197413254"
+                            ,
+                        "300083014"
+            ];
+
+            $(".hiddenSource").each(function() {
+                const tr = $(this).closest("tr");
+
+                const partyMemberIds = tr.attr("partyMemberIds");
+                let show = false;
+                const submissionId = tr.attr("data-submission-id");
+                if (
+                        viewableSubmissionIds.indexOf(submissionId) != -1) {
+                    show = true;
+                }
+                if (show) {
+                    const p = $(this).parent();
+                    $(this).remove();
+                    p.append($("<a class=\"view-source\" title=\"Source\" href=\"#\" submissionId=\"" + submissionId + "\">" + submissionId + "</a>"));
+                }
+            });
+
+            $("a.view-source[submissionId]").each(function () {
+                const handled = $(this).attr("handled");
+                const e = $(this);
+                if (handled !== "true") {
+                    const handler = function () {
+                        showSubmissionSourceCode(e.attr("submissionId"));
+                        return false;
+                    };
+                    $(this).bind("click", handler);
+                    $(this).attr("handled", "true");
+                }
+            });
+
+                const tryDiagnosticsSubmissionIds = [];
+                $(".status-frame-datatable .id-cell a").each(function () {
+                    const tr = $(this).closest("tr");
+                    const submissionId = tr.attr("data-submission-id");
+                    tryDiagnosticsSubmissionIds.push(submissionId);
+                });
+
+                if (tryDiagnosticsSubmissionIds.length > 0) {
+                    $.post("/data/diagnosticsResults", {action: "find", submissionIds: JSON.stringify(tryDiagnosticsSubmissionIds)}, function (ids) {
+                        for (let i = 0; i < ids.length; i++) {
+                            $(".status-frame-datatable tr[data-submission-id='" + ids[i] + "'] .diagnosticsHint").css("display", "inline");
+                        }
+                    });
+                }
+        });
+    </script>
+
+
+    <div style="margin-top: 1em; font-size: 1.1rem;">
+        Sort by:
+    <div style="float:right;">
+    <form class="choose-order" action="" method="get">
+        <input  type="radio" name="order" value="" style="margin-left:2em;"> Default order</input>
+        <input  type="radio" name="order" value="BY_ARRIVED_DESC" style="margin-left:2em;"> Submission time</input>
+        <input  type="radio" name="order" value="BY_JUDGED_DESC" style="margin-left:2em;"> Judging Time</input>
+        <input checked="true" type="radio" name="order" value="BY_PROGRAM_LENGTH_ASC" style="margin-left:2em;"> Solution Size</input>
+        <input  type="radio" name="order" value="BY_CONSUMED_TIME_ASC" style="margin-left:2em;"> Execution Time</input>
+    </form>
+    </div>
+    </div>
+    <div style="margin-top:1em;">
+
+<div class="pagination">
+    <ul>
+            <span class="inactive">&larr;</span>
+        <li>
+                <span class="page-index active" pageIndex="1"><a href="/problemset/status/4/problem/A/page/1?order=BY_PROGRAM_LENGTH_ASC">1</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="2"><a href="/problemset/status/4/problem/A/page/2?order=BY_PROGRAM_LENGTH_ASC">2</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="3"><a href="/problemset/status/4/problem/A/page/3?order=BY_PROGRAM_LENGTH_ASC">3</a></span>
+        </li>
+        <li>
+                ...
+        </li>
+        <li>
+                <span class="page-index" pageIndex="10"><a href="/problemset/status/4/problem/A/page/10?order=BY_PROGRAM_LENGTH_ASC">10</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="11"><a href="/problemset/status/4/problem/A/page/11?order=BY_PROGRAM_LENGTH_ASC">11</a></span>
+        </li>
+            <li><a href="/problemset/status/4/problem/A/page/2?order=BY_PROGRAM_LENGTH_ASC" class="arrow">&rarr;</a></li>
+    </ul>
+</div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+function handlePaginationKeyboardEvent(right) {
+    var pageIndex = parseInt($(".pagination").find("span.active").attr("pageIndex"));
+    if (right) {
+        pageIndex++;
+    } else {
+        pageIndex--;
+    }
+    $(".pagination").find("span[pageIndex=" + pageIndex + "]").each(function () {
+        Codeforces.redirect($(this).find("a").attr("href"));
+    });
+}
+
+$(document).bind('keydown', 'ctrl+left', function() {
+    handlePaginationKeyboardEvent(false);
+});
+
+$(document).bind('keydown', 'ctrl+right', function() {
+    handlePaginationKeyboardEvent(true);
+});
+        });
+    </script>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+    $(".choose-order input").change(function () {
+        $(".choose-order").submit();
+    });
+
+    $("input[name=friends]").click(function () {
+        $("form.friendsEnabledSwitch").find("input[name=csrf_token]").remove();
+        $("form.friendsEnabledSwitch").submit();
+    });
+
+    $("input[name=my]").click(function () {
+        $("form.myEnabledSwitch").find("input[name=csrf_token]").remove();
+        $("form.myEnabledSwitch").submit();
+    });
+        });
+    </script>
+                </div>
+        </div>
+            <br style="clear: both;"/>
+            <div id="footer">
+                <div><a href="https://codeforces.com/">Codeforces</a> (c) Copyright 2010-2025 Mike Mirzayanov</div>
+                <div>The only programming contests Web 2.0 platform</div>
+                    <div>Server time: <span class="format-timewithseconds" data-locale="en">Feb/04/2025 17:21:38</span> (f1).</div>
+                    <div>Desktop version, switch to <a rel="nofollow" class="switchToMobile" href="?mobile=true">mobile version</a>.</div>
+                <div class="smaller"><a href="/privacy">Privacy Policy</a></div>
+
+                    <div style="margin-top: 25px;">
+                        Supported by
+                    </div>
+                    <div class="footer-logo-div" style="left: 30px;">
+                        <a href="https://ton.org/"><img style="margin-right: 2em; width: 60px;" src="//codeforces.org/s/89536/images/ton-100x100.png" alt="TON" title="TON"/></a>
+                        <div class="sep">&nbsp;</div>
+                        <a href="https://en.itmo.ru/en/" class="itmo-logo"><img style="width: 140px;" src="//codeforces.org/s/89536/images/itmo_small_en-logo.png" alt="ITMO University" title="ITMO University"/></a>
+                    </div>
+
+            </div>
+        <script type="text/javascript">
+            $(function() {
+                $(".switchToMobile").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "true"));
+                    return false;
+                });
+                $(".switchToDesktop").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "false"));
+                    return false;
+                });
+            });
+        </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 1600) {
+                $('.button-up').css('width', '30px').css('line-height', '30px').css('font-size', '20px');
+            }
+
+            if ($(window).width() >= 1200) {
+                $ (window).scroll (function () {
+                    if ($ (this).scrollTop () > 100) {
+                        $ ('.button-up').fadeIn();
+                    } else {
+                        $ ('.button-up').fadeOut();
+                    }
+                });
+
+                $('.button-up').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
+                });
+
+                $('.button-up').hover(function () {
+                    $(this).animate({
+                        'opacity':'1'
+                    }).css({'background-color':'#e7ebf0','color':'#6a86a4'});
+                }, function () {
+                    $(this).animate({
+                        'opacity':'0.7'
+                    }).css({'background':'none','color':'#d3dbe4'});;
+                });
+            }
+            Codeforces.focusOnError();
+        });
+    </script>
+    <div class="userListsFacebox" style="display:none;">
+        <div style="padding: 0.5em; width: 600px; max-height: 200px; overflow-y: auto">
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                User lists
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//codeforces.org/s/89536/images/icons/control.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//codeforces.org/s/89536/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+        </div>
+    </div>
+    <script type="application/javascript">
+        $(function() {
+            $(".userListMarker").click(function() {
+                $.post("/data/lists", {action: "findTouched"}, function(json) {
+                    Codeforces.facebox(".userListsFacebox");
+                    var tbody = $("#facebox tbody");
+                    tbody.empty();
+                    for (var i in json) {
+                        tbody.append(
+                            $("<tr></tr>").append(
+                                $("<td></td>").attr("data-readKey", json[i].readKey).text(json[i].name)
+                            )
+                        );
+                    }
+                    Codeforces.updateDatatables();
+                    tbody.find("td").css("cursor", "pointer").click(function() {
+                        document.location = Codeforces.updateUrlParameter(document.location.href, "list", $(this).attr("data-readKey"));
+                    });
+                }, "json");
+            });
+        });
+    </script>
+</div>
+    <script type="application/javascript">
+        if ('serviceWorker' in navigator && 'fetch' in window && 'caches' in window) {
+            navigator.serviceWorker.register('/service-worker-89536.js')
+                .then(function (registration) {
+                    console.log('Service worker registered: ', registration);
+                })
+                .catch(function (error) {
+                    console.log('Registration failed: ', error);
+                });
+        }
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"90cb4ed2a940eed6","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.1.0","token":"316c29dfa3804effb5a91c52a59b5bd0"}' crossorigin="anonymous"></script>
+</body>
+</html>

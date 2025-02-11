@@ -1,0 +1,38 @@
+Amber Trade Deals  
+
+In the country of Amber, trade and financial relationships are highly complex. When two merchants wish to exchange goods, they must go to the Amber Trade Guild. However, a direct exchange is not possible unless their *normalization coefficients* match. Only in such cases can the Trade Guild profit from the deal.  
+
+A merchant's normalization coefficient is calculated based on their age **N** and the numeral system base **P** used in their country. The coefficient is defined as the sum of the digits of **N** when expressed in base **P**.  
+
+The task is to determine how much the Trade Guild will earn when two merchants attempt a trade. If their normalization coefficients match, the profit equals this common value; otherwise, the guild earns nothing.  
+
+Input:  
+The input file "INPUT.TXT" contains two lines.  
+- The first line has two integers: **N1** and **P1**, representing the first merchant's age and numeral system base.  
+- The second line has two integers: **N2** and **P2**, representing the second merchant's age and numeral system base.  
+
+Constraints:  
+0 ≤ N1, N2 ≤ 2147483647  
+2 ≤ P1, P2 ≤ 16  
+
+Output:  
+The output file "OUTPUT.TXT" should contain a single integer, representing the Trade Guild's earnings from the deal.  
+
+Example:  
+Input:  
+7 2  
+9 4  
+Output:  
+3  
+
+Input:  
+5 8  
+5 2  
+Output:  
+0  
+
+Input:  
+31 16  
+400 9  
+Output:  
+16  

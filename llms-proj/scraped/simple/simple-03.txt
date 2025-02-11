@@ -1,0 +1,106 @@
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+4  
+2 3 5 10  
+Output:  
+10  
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+7  
+4 6 7 9 13 19 21  
+Output:  
+39  
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+5  
+11 13 17 18 19  
+Output:  
+60  
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+6  
+1 2 4 6 8 9  
+Output:  
+2  
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+3  
+29 31 37  
+Output:  
+97  
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+3 8 
+10 15 17 23 
+25 31 35 39  
+1 9 772 3 12
+Output:  
+71  
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+2
+aoeuaoubb
+tehuegune
+Output:  
+29 tetutehe
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+2  
+1 1  
+Output:  
+0  
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+6  
+2 4 
+6 8 
+10 12  
+Output:  
+2  
+===  
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+7  
+5 7 11 13 
+17 19 23  
+Output:  
+95  
+===

@@ -1,0 +1,170 @@
+### Problem ###
+Compute the sum of all numbers in a given list where each number is positive and the list has at most ten elements.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Find the largest difference between two adjacent numbers in a sequence of positive integers sorted in ascending order.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Determine if a given sequence of integers forms a palindrome when read from left to right and right to left.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Count the number of words in a given sentence that contain at least one vowel and are longer than three letters.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Given a sequence of numbers, find the second largest unique value when all values are distinct positive integers.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Find the longest consecutive sequence of even numbers in a given list containing only positive integers.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Check if a given matrix is a magic square where all rows, columns, and diagonals sum to the same number.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Find the median value in a list of positive integers sorted in non-decreasing order of at most ten elements.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Determine whether a given word contains at least three unique vowels in any order within its spelling.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===
+### Problem ###
+Given a set of numbers, find the sum of all prime numbers present in the list, considering only values greater than one.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+===

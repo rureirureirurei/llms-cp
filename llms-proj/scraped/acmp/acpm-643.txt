@@ -1,0 +1,32 @@
+Time-Based Activation Key
+
+In modern software development, securing a product against unauthorized distribution is as important as creating and selling it. A common method for software protection is the use of activation keys. Traditionally, these keys are static, meaning they remain constant for a given product. However, the company "Gold&Silver Soft" has introduced a dynamic activation key system, where the key changes every minute based on a specific rule.
+
+The key at any given minute is a positive integer. If the current key is N, the key for the next minute is calculated as:
+N' = N + S(N)
+where S(N) is the checksum of N, defined as the number of ones in the binary representation of N.
+
+For example, if N = 6, its binary representation is 110₂, which contains 2 ones. Thus, the next key value is:
+N' = 6 + 2 = 8
+
+Input:
+A single integer N (1 ≤ N ≤ 2×10⁹) is provided in the input file "INPUT.TXT."
+
+Output:
+Print a single integer to the output file "OUTPUT.TXT," representing the activation key value for the next minute.
+
+Example:
+Input:
+2
+Output:
+3
+
+Input:
+6
+Output:
+8
+
+Input:
+27
+Output:
+31

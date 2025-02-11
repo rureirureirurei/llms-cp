@@ -1,0 +1,30 @@
+Flower Arrangement Problem
+
+Three flowers—geranium (G), crocus (C), and violet (V)—are placed on a windowsill from left to right in the initial order: G, C, V. Two individuals, Masha and Tanya, interact with the flowers daily.
+
+    Each morning, Masha swaps the rightmost flower with the center flower.
+    Each evening, Tanya swaps the leftmost flower with the center flower.
+
+Given an integer K (1 ≤ K ≤ 1000), representing the number of days, determine the arrangement of flowers at night after K days.
+
+Input:
+A single integer K is provided in the input file "INPUT.TXT."
+
+Output:
+Print the final order of the flowers in the output file "OUTPUT.TXT," using the letters "G", "C", and "V" (uppercase, no spaces).
+
+Example:
+Input:
+1
+Output:
+VGC
+
+Input:
+5
+Output:
+CVG
+
+Input:
+10
+Output:
+GVC
