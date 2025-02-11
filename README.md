@@ -116,6 +116,9 @@ I've considered:
   - Problems with different statements, but same tests
   - Different problems on different topics
 
+As expected, we can see from the embeddings that both statement and tests affect the embeddings. 
+When considering problems based on the different topics - mild separation can be noticed. 
+
 ## File structure
 
 `unused/` - LLama (too heavy to run on the laptop) and OSS Operating System that I was planning to use
