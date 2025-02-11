@@ -1,0 +1,13 @@
+  
+### Problem ###
+Find the number of ways to arrange n distinct objects in a row.
+
+### Test Case ###
+Input:  
+5  
+Output:  
+120  
+
+### Test Case ###
+
+ (1) The first two rows are all empty, and so we have 2 separate sets of items that can be

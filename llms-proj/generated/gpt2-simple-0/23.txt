@@ -1,0 +1,25 @@
+
+### Problem ###
+Swap two numbers.
+
+### Test Case ###
+Input:
+3 7
+Output:
+7 3
+
+### Test Case ###
+Input:
+12 5
+Output:
+5 12
+
+### Test Case ###
+
+Input:
+
+4 4
+
+Output:
+
+4 4

@@ -1,0 +1,26 @@
+
+### Problem ###
+Reverse the digits of a number.
+
+### Test Case ###
+Input:
+456
+Output:
+654
+
+### Test Case ###
+Input:
+123
+Output:
+321
+
+### Test Case ###
+
+Input:
+
+123
+
+Output:
+
+321
+

@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the area of a triangle.
+
+### Test Case ###
+Input:
+6 8
+Output:
+24
+
+### Test Case ###
+Input:
+10 15
+Output:
+75
+
+### Test Case ###
+
+Input:
+
+10 15
+
+Output:
+
+75

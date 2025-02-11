@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the cube of a number.
+
+### Test Case ###
+Input:
+3
+Output:
+27
+
+### Test Case ###
+Input:
+6
+Output:
+216
+
+### Test Case ###
+
+Input:
+
+4
+
+Output:
+
+1
+

@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the average of three numbers.
+
+### Test Case ###
+Input:
+4 8 12
+Output:
+8.0
+
+### Test Case ###
+Input:
+10 20 30
+Output:
+20.0
+
+### Test Case ###
+
+Input:
+
+10 20 30
+
+Output:
+
+20

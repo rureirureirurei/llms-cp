@@ -1,0 +1,30 @@
+### Problem ###
+Find the sum of all even numbers in a given list of integers.
+
+### Test Case ###
+Input:
+6
+2 5 8 11 14 17
+Output:
+24
+
+### Test Case ###
+Input:
+5
+3 7 9 10 12
+Output:
+22
+
+### Test Case ###
+
+Input:
+
+4
+
+5 8 11 14 17
+
+Output:
+
+20
+
+###

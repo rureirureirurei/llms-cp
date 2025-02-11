@@ -1,0 +1,26 @@
+
+### Problem ###
+Check if a number is a perfect square.
+
+### Test Case ###
+Input:
+16
+Output:
+Yes
+
+### Test Case ###
+Input:
+23
+Output:
+No
+
+### Test Case ###
+
+Input:
+
+16
+
+Output:
+
+No
+

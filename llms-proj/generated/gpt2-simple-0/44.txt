@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the sum of even numbers up to N.
+
+### Test Case ###
+Input:
+6
+Output:
+12
+
+### Test Case ###
+Input:
+10
+Output:
+30
+
+### Test Case ###
+
+Input:
+
+10
+
+Output:
+
+30
+

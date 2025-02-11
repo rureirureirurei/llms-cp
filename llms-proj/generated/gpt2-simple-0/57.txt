@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the sum of divisors of a number.
+
+### Test Case ###
+Input:
+10
+Output:
+18
+
+### Test Case ###
+Input:
+15
+Output:
+24
+
+### Test Case ###
+
+Input:
+
+10
+
+Output:
+
+18
+

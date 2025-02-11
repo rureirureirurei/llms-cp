@@ -1,0 +1,26 @@
+
+### Problem ###
+Check if a number is a perfect number.
+
+### Test Case ###
+Input:
+6
+Output:
+Yes
+
+### Test Case ###
+Input:
+8
+Output:
+No
+
+### Test Case ###
+
+Input:
+
+9
+
+Output:
+
+No
+

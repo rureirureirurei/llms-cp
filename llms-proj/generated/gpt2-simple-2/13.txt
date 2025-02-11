@@ -1,0 +1,13 @@
+  
+### Problem ###
+Compute the number of ways to choose k elements from a set of n elements.
+
+### Test Case ###
+Input:  
+6 3  
+Output:  
+20  
+
+### Test Case ###
+
+ (1) The first element is an integer, and it has no value in this case because there are only two

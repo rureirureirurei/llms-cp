@@ -1,0 +1,26 @@
+
+### Problem ###
+Check if a number is a power of 2.
+
+### Test Case ###
+Input:
+8
+Output:
+Yes
+
+### Test Case ###
+Input:
+10
+Output:
+No
+
+### Test Case ###
+
+Input:
+
+11
+
+Output:
+
+No
+

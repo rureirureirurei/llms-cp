@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the number of digits in a number.
+
+### Test Case ###
+Input:
+12345
+Output:
+5
+
+### Test Case ###
+Input:
+987654
+Output:
+6
+
+### Test Case ###
+
+Input:
+
+12345
+
+Output:
+
+5

@@ -1,0 +1,15 @@
+A. Game With Sticks time limit per test 1 second memory limit per test 256 megabytes input stdin output stdout After winning gold and silver in IOI 2014, Akshat and Malvika want to have some fun. Now they are playing a game on a grid made of n horizontal and m vertical sticks. An intersection point is any point on the grid which is formed by the intersection of one horizontal stick and one vertical stick. In the grid shown below, n = 3 and m = 3 . There are n + m = 6 sticks in total (horizontal sticks are shown in red and vertical sticks are shown in green). There are n · m = 9 intersection points, numbered from 1 to 9 . The rules of the game are very simple. The players move in turns. Akshat won gold, so he makes the first move. During his/her move, a player must choose any remaining intersection point and remove from the grid all sticks which pass through this point. A player will lose the game if he/she cannot make a move (i.e. there are no intersection points remaining on the grid at his/her move). Assume that both players play optimally. Who will win the game? Input The first line of input contains two space-separated integers, n and m ( 1 ≤ n , m ≤ 100 ). Output Print a single line containing " Akshat " or " Malvika " (without the quotes), depending on the winner of the game. Examples Input 2 2 Output Malvika Input 2 3 Output Malvika Input 3 3 Output Akshat Note Explanation of the first sample: The grid has four intersection points, numbered from 1 to 4 . If Akshat chooses intersection point 1 , then he will remove two sticks ( 1 - 2 and 1 - 3 ). The resulting grid will look like this. Now there is only one remaining intersection point (i.e. 4 ). Malvika must choose it and remove both remaining sticks. After her move the grid will be empty. In the empty grid, Akshat cannot make any move, hence he will lose. Since all 4 intersection points of the grid are equivalent, Akshat will lose no matter which one he picks.
+
+Input: Akshat's move 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
+
+Loading... Loading...
+
+Quotes are not sourced from all markets and may be delayed up to 20 minutes. Information is provided 'as is' and solely for informational purposes, not for trading purposes or advice.Disclaimer Sheet1
+
+A browser error has occurred.
+
+Please press Ctrl-F5 to refresh the page and try again.
+
+A browser error has occurred.
+
+Please hold the Shift key and click the Refresh button to try again.

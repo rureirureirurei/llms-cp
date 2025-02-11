@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the sum of the first N natural numbers.
+
+### Test Case ###
+Input:
+5
+Output:
+15
+
+### Test Case ###
+Input:
+10
+Output:
+55
+
+### Test Case ###
+
+Input:
+
+10
+
+Output:
+
+55
+

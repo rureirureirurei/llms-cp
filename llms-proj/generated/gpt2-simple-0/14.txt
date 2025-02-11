@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the area of a square.
+
+### Test Case ###
+Input:
+6
+Output:
+36
+
+### Test Case ###
+Input:
+9
+Output:
+81
+
+### Test Case ###
+
+Input:
+
+12
+
+Output:
+
+76
+

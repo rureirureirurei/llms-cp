@@ -1,0 +1,13 @@
+  
+### Problem ###
+Find the longest common prefix among a set of given words.
+
+### Test Case ###
+Input:  
+flower flow flight  
+Output:  
+fl  
+
+### Test Case ###
+
+ (1) The first letter is used to indicate that there are no letters in this list, and it should be

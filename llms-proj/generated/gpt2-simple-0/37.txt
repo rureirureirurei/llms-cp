@@ -1,0 +1,25 @@
+
+### Problem ###
+Count the number of even digits in a number.
+
+### Test Case ###
+Input:
+2468
+Output:
+4
+
+### Test Case ###
+Input:
+1357
+Output:
+0
+
+### Test Case ###
+
+Input:
+
+1234
+
+Output:
+
+0

@@ -1,0 +1,13 @@
+  
+### Problem ###
+Count the number of substrings in a given string that start and end with the same letter.
+
+### Test Case ###
+Input:  
+abcab  
+Output:  
+7  
+
+### Test Case ###
+
+ (1) The first character is an underscore, followed by two underscores or spaces between them to indicate they are not

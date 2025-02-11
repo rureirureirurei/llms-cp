@@ -1,0 +1,13 @@
+  
+### Problem ###
+Compute the number of different ways to arrange a set of people in a circular formation.
+
+### Test Case ###
+Input:  
+6  
+Output:  
+120  
+
+### Test Case ###
+
+ (1) The first two numbers are integers, and each one is an integer with no digits or other special characters

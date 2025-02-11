@@ -1,0 +1,1 @@
+B. Queue at the school time limit per test 2 seconds memory limit per test 256 megabytes input stdin output stdout During the break the schoolchildren, boys and girls, formed a queue of n people in the canteen. Initially the children stood in the order they entered the canteen. However, after

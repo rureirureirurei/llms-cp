@@ -1,0 +1,31 @@
+
+### Problem ###
+Find the longest word in a given list of words.
+
+### Test Case ###
+Input:
+5
+apple banana cherry date elderberry
+Output:
+elderberry
+
+### Test Case ###
+Input:
+3
+car truck motorcycle
+Output:
+motorcycle
+
+### Test Case ###
+
+Input:
+
+4
+
+car truck motorcycle
+
+Output:
+
+motorcycle
+
+###

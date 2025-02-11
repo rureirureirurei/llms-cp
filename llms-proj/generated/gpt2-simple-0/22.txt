@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the least common multiple (LCM) of two numbers.
+
+### Test Case ###
+Input:
+4 5
+Output:
+20
+
+### Test Case ###
+Input:
+6 8
+Output:
+24
+
+### Test Case ###
+
+Input:
+
+8 8
+
+Output:
+
+24

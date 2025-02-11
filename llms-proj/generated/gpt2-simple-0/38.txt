@@ -1,0 +1,25 @@
+
+### Problem ###
+Count the number of odd digits in a number.
+
+### Test Case ###
+Input:
+12345
+Output:
+3
+
+### Test Case ###
+Input:
+24680
+Output:
+0
+
+### Test Case ###
+
+Input:
+
+12345
+
+Output:
+
+0

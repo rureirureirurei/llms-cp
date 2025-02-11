@@ -1,0 +1,13 @@
+  
+### Problem ###
+Find the number of different permutations of a word containing duplicate letters.
+
+### Test Case ###
+Input:  
+banana  
+Output:  
+60  
+
+### Test Case ###
+
+ (1) The first letter is an empty string, and it must be one that has no other characters in its

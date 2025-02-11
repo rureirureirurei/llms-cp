@@ -1,0 +1,13 @@
+  
+### Problem ###
+Given a list of words, find and return the longest word.
+
+### Test Case ###
+Input:  
+apple banana orange strawberry  
+Output:  
+strawberry  
+
+### Test Case ###
+
+ (1) The first letter is an abbreviation for "Apple". It's used to indicate that Apple has been

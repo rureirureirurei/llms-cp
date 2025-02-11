@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the sum of the Fibonacci sequence up to N.
+
+### Test Case ###
+Input:
+5
+Output:
+12
+
+### Test Case ###
+Input:
+7
+Output:
+33
+
+### Test Case ###
+
+Input:
+
+8
+
+Output:
+
+33
+

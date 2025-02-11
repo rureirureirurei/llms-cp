@@ -1,0 +1,13 @@
+  
+### Problem ###
+Given a sentence, count the number of words that contain at least one uppercase letter.
+
+### Test Case ###
+Input:  
+Hello World this Is a Test  
+Output:  
+3  
+
+### Test Case ###
+
+ (1) The first word in an input is not capitalized and must be preceded by two spaces or underscores to

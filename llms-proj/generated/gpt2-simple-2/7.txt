@@ -1,0 +1,13 @@
+  
+### Problem ###
+Reverse all the words in a given sentence while maintaining their original order.
+
+### Test Case ###
+Input:  
+This is a test  
+Output:  
+sihT si a tset  
+
+### Test Case ###
+
+ (1) The first word of each line has to be followed by an asterisk (*). This means that if

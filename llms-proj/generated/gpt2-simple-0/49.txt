@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the exponent of 2 that results in a number.
+
+### Test Case ###
+Input:
+16
+Output:
+4
+
+### Test Case ###
+Input:
+32
+Output:
+5
+
+### Test Case ###
+
+Input:
+
+16
+
+Output:
+
+5
+

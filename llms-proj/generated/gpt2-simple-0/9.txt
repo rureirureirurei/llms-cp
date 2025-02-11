@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the absolute difference between two numbers.
+
+### Test Case ###
+Input:
+15 8
+Output:
+7
+
+### Test Case ###
+Input:
+20 30
+Output:
+10
+
+### Test Case ###
+
+Input:
+
+20 30
+
+Output:
+
+10

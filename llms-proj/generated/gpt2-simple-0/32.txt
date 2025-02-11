@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the last digit of a number.
+
+### Test Case ###
+Input:
+123
+Output:
+3
+
+### Test Case ###
+Input:
+9876
+Output:
+6
+
+### Test Case ###
+
+Input:
+
+9
+
+Output:
+
+1
+

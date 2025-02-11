@@ -1,0 +1,28 @@
+
+### Problem ###
+Given a list of pairs representing city temperatures (city name and temperature), find the coldest city.
+
+### Test Case ###
+Input:
+3
+NewYork 32 Chicago 25 LosAngeles 40
+Output:
+Chicago
+
+### Test Case ###
+Input:
+4
+Berlin 10 Paris 12 Madrid 8 Rome 14
+Output:
+Madrid
+
+### Test Case ###
+
+Input:
+
+5
+
+New York 20 Chicago 20 LosAngeles 20
+
+Output:
+

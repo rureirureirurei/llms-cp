@@ -1,0 +1,25 @@
+
+### Problem ###
+Check if a year is a leap year.
+
+### Test Case ###
+Input:
+2024
+Output:
+Leap Year
+
+### Test Case ###
+Input:
+2023
+Output:
+Not a Leap Year
+
+### Test Case ###
+
+Input:
+
+2022
+
+Output:
+
+Not a

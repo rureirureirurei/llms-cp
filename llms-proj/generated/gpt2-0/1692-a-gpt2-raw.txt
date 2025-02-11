@@ -1,0 +1,1 @@
+A. Marathon time limit per test 1 second memory limit per test 256 megabytes input standard input output standard output You are given four distinct integers $$$a$$$, $$$b$$$, $$$c$$$, $$$d$$$$, and $$$d$$$ correspond to the distances the other three participants ran. Output The number of participants in front of Timur. Input

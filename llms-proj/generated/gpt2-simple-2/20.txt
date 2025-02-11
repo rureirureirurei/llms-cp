@@ -1,0 +1,14 @@
+  
+### Problem ###
+Given a set of numbers, find the number of ways to split it into two subsets with equal sum.
+
+### Test Case ###
+Input:  
+4  
+1 5 11 5  
+Output:  
+True  
+
+### Test Case ###
+
+ (2) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20

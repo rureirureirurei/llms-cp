@@ -1,0 +1,303 @@
+A. Beautiful Year time limit per test 2 seconds memory limit per test 256 megabytes input stdin output stdout It seems like the year of 2013 came only yesterday. Do you know a curious fact? The year of 2013 is the first year after the old 1987 with only distinct digits. Now you are suggested to solve the following problem: given a year number, find the minimum year number which is strictly larger than the given one and has only distinct digits. Input The single line contains integer y (1000 ≤ y ≤ 9000) — the year number. Output Print a single integer — the minimum year number that is strictly larger than y and all it's digits are distinct. It is guaranteed that the answer exists. Examples Input 1987 Output 2013 Input 2013 Output 2014
+
+Input:
+
+Year: 1987
+
+Year: 1989
+
+Year: 1990
+
+Year: 1991
+
+Year: 1992
+
+Year: 1993
+
+Year: 1994
+
+Year: 1995
+
+Year: 1996
+
+Year: 1997
+
+Year: 1998
+
+Year: 1999
+
+Year: 2000
+
+Year: 2001
+
+Year: 2002
+
+Year: 2003
+
+Year: 2004
+
+Year: 2005
+
+Year: 2006
+
+Year: 2007
+
+Year: 2008
+
+Year: 2009
+
+Year: 2010
+
+Year: 2011
+
+Year: 2012
+
+Year: 2013
+
+Year: 2014
+
+Year: 2015
+
+Year: 2016
+
+Year: 2017
+
+Year: 2018
+
+Year: 2019
+
+Year: 2020
+
+Year: 2021
+
+Year: 2022
+
+Year: 2023
+
+Year: 2024
+
+Year: 2025
+
+Year: 2026
+
+Year: 2027
+
+Year: 2028
+
+Year: 2029
+
+Year: 2030
+
+Year: 2031
+
+Year: 2032
+
+Year: 2033
+
+Year: 2034
+
+Year: 2035
+
+Year: 2036
+
+Year: 2037
+
+Year: 2038
+
+Year: 2039
+
+Year: 2040
+
+Year: 2041
+
+Year: 2042
+
+Year: 2043
+
+Year: 2044
+
+Year: 2045
+
+Year: 2046
+
+Year: 2047
+
+Year: 2048
+
+Year: 2049
+
+Year: 2050
+
+Year: 2051
+
+Year: 2052
+
+Year: 2053
+
+Year: 2054
+
+Year: 2055
+
+Year: 2056
+
+Year: 2057
+
+Year: 2058
+
+Year: 2059
+
+Year: 2060
+
+Year: 2061
+
+Year: 2062
+
+Year: 2063
+
+Year: 2064
+
+Year: 2065
+
+Year: 2066
+
+Year: 2067
+
+Year: 2068
+
+Year: 2069
+
+Year: 2070
+
+Year: 2071
+
+Year: 2072
+
+Year: 2073
+
+Year: 2074
+
+Year: 2075
+
+Year: 2076
+
+Year: 2077
+
+Year: 2078
+
+Year: 2079
+
+Year: 2080
+
+Year: 2081
+
+Year: 2082
+
+Year: 2083
+
+Year: 2084
+
+Year: 2085
+
+Year: 2086
+
+Year: 2087
+
+Year: 2088
+
+Year: 2089
+
+Year: 2090
+
+Year: 2091
+
+Year: 2092
+
+Year: 2093
+
+Year: 2094
+
+Year: 2095
+
+Year: 2096
+
+Year: 2097
+
+Year: 2098
+
+Year: 2099
+
+Year: 2100
+
+Year: 2101
+
+Year: 2102
+
+Year: 2103
+
+Year: 2104
+
+Year: 2105
+
+Year: 2106
+
+Year: 2107
+
+Year: 2108
+
+Year: 2109
+
+Year: 2110
+
+Year: 2111
+
+Year: 2112
+
+Year: 2113
+
+Year: 2114
+
+Year: 2115
+
+Year: 2116
+
+Year: 2117
+
+Year: 2118
+
+Year: 2119
+
+Year: 2120
+
+Year: 2121
+
+Year: 2122
+
+Year: 2123
+
+Year: 2124
+
+Year: 2125
+
+Year: 2126
+
+Year: 2127
+
+Year: 2128
+
+Year: 2129
+
+Year: 2130
+
+Year: 2131
+
+Year: 2132
+
+Year: 2133
+
+Year: 2134
+
+Year: 2135
+
+Year: 2136
+
+Year:

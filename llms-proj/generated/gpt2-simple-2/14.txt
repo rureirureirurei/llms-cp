@@ -1,0 +1,13 @@
+  
+### Problem ###
+Determine the number of ways to distribute n identical objects into k distinct bins.
+
+### Test Case ###
+Input:  
+4 2  
+Output:  
+5  
+
+### Test Case ###
+
+ (1) The first two numbers are a random distribution, and each bin is randomly assigned one or more pairs from

@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the remainder when dividing two numbers.
+
+### Test Case ###
+Input:
+10 3
+Output:
+1
+
+### Test Case ###
+Input:
+25 7
+Output:
+4
+
+### Test Case ###
+
+Input:
+
+10 3
+
+Output:
+
+1

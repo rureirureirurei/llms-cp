@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the largest digit in a number.
+
+### Test Case ###
+Input:
+978
+Output:
+9
+
+### Test Case ###
+Input:
+1234
+Output:
+4
+
+### Test Case ###
+
+Input:
+
+1234
+
+Output:
+
+4

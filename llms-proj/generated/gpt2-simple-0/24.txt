@@ -1,0 +1,25 @@
+
+### Problem ###
+Check if a number is prime.
+
+### Test Case ###
+Input:
+7
+Output:
+Prime
+
+### Test Case ###
+Input:
+12
+Output:
+Not Prime
+
+### Test Case ###
+
+Input:
+
+12
+
+Output:
+
+Not Prime

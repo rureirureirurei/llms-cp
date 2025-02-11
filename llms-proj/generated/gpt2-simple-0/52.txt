@@ -1,0 +1,25 @@
+
+### Problem ###
+Compute the sum of numbers from A to B.
+
+### Test Case ###
+Input:
+3 7
+Output:
+25
+
+### Test Case ###
+Input:
+10 15
+Output:
+75
+
+### Test Case ###
+
+Input:
+
+10 15
+
+Output:
+
+75

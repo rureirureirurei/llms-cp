@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the sum of the first and last digit of a number.
+
+### Test Case ###
+Input:
+1234
+Output:
+5
+
+### Test Case ###
+Input:
+5678
+Output:
+13
+
+### Test Case ###
+
+Input:
+
+1234
+
+Output:
+
+13

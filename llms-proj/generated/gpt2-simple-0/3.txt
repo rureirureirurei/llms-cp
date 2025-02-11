@@ -1,0 +1,25 @@
+
+### Problem ###
+Multiply two integers.
+
+### Test Case ###
+Input:
+4 6
+Output:
+24
+
+### Test Case ###
+Input:
+7 9
+Output:
+63
+
+### Test Case ###
+
+Input:
+
+8 12
+
+Output:
+
+64

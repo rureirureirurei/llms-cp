@@ -1,0 +1,11 @@
+  
+### Problem ###
+Determine if a given string is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+### Test Case ###
+Input:  
+A man, a plan, a canal, Panama!  
+Output:  
+True  
+
+### Test Case ###

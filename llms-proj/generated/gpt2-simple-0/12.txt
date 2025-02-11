@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the area of a rectangle.
+
+### Test Case ###
+Input:
+4 6
+Output:
+24
+
+### Test Case ###
+Input:
+10 5
+Output:
+50
+
+### Test Case ###
+
+Input:
+
+4 6
+
+Output:
+
+24

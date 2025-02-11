@@ -1,0 +1,14 @@
+  
+### Problem ###
+Check whether two strings are anagrams of each other (ignoring spaces and capitalization).
+
+### Test Case ###
+Input:  
+Listen  
+Silent  
+Output:  
+True  
+
+### Test Case ###
+
+. . | 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20

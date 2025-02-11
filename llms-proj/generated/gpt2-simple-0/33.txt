@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the first digit of a number.
+
+### Test Case ###
+Input:
+4567
+Output:
+4
+
+### Test Case ###
+Input:
+8123
+Output:
+8
+
+### Test Case ###
+
+Input:
+
+8123
+
+Output:
+
+8

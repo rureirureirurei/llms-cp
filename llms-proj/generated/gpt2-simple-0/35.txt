@@ -1,0 +1,26 @@
+
+### Problem ###
+Check if a number is a palindrome.
+
+### Test Case ###
+Input:
+121
+Output:
+Yes
+
+### Test Case ###
+Input:
+123
+Output:
+No
+
+### Test Case ###
+
+Input:
+
+123
+
+Output:
+
+No
+

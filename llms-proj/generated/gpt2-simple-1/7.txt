@@ -1,0 +1,25 @@
+
+### Problem ###
+Given a series of dates in YYYY-MM-DD format, find the earliest date.
+
+### Test Case ###
+Input:
+5
+2023-06-14 2021-04-30 2022-09-12 2020-01-01 2021-12-25
+Output:
+2020-01-01
+
+### Test Case ###
+Input:
+3
+2019-05-20 2018-11-15 2020-07-07
+Output:
+2018-11-15
+
+### Test Case ###
+
+Input:
+
+3
+
+2019-05-20 2018-11-15 2020-07-07

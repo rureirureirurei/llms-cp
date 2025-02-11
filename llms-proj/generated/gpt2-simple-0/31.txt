@@ -1,0 +1,25 @@
+
+### Problem ###
+Check if a number is a multiple of another.
+
+### Test Case ###
+Input:
+10 2
+Output:
+Yes
+
+### Test Case ###
+Input:
+15 4
+Output:
+No
+
+### Test Case ###
+
+Input:
+
+20 4
+
+Output:
+
+No

@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the number of divisors of a number.
+
+### Test Case ###
+Input:
+12
+Output:
+6
+
+### Test Case ###
+Input:
+15
+Output:
+4
+
+### Test Case ###
+
+Input:
+
+20
+
+Output:
+
+4
+

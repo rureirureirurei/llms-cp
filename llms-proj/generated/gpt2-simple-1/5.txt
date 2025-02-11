@@ -1,0 +1,27 @@
+
+### Problem ###
+Count how many words in a sentence contain at least one vowel.
+
+### Test Case ###
+Input:
+The quick brown fox jumps over the lazy dog
+Output:
+9
+
+### Test Case ###
+Input:
+Sky blue cloud
+Output:
+2
+
+### Test Case ###
+
+Input:
+
+The fox jumps over the lazy dog
+
+Output:
+
+9
+
+### Test

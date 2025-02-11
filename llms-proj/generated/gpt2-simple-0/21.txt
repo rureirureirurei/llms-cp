@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the greatest common divisor (GCD) of two numbers.
+
+### Test Case ###
+Input:
+8 12
+Output:
+4
+
+### Test Case ###
+Input:
+18 24
+Output:
+6
+
+### Test Case ###
+
+Input:
+
+4
+
+Output:
+
+4
+

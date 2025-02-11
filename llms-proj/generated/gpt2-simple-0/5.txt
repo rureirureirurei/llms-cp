@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the minimum of two numbers.
+
+### Test Case ###
+Input:
+14 8
+Output:
+8
+
+### Test Case ###
+Input:
+10 20
+Output:
+10
+
+### Test Case ###
+
+Input:
+
+10 20
+
+Output:
+
+10

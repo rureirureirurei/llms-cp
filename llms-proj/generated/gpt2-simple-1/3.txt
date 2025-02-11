@@ -1,0 +1,31 @@
+
+### Problem ###
+Given a list of student scores, find the highest and lowest score.
+
+### Test Case ###
+Input:
+6
+85 92 76 90 88 95
+Output:
+95 76
+
+### Test Case ###
+Input:
+4
+55 60 78 70
+Output:
+78 55
+
+### Test Case ###
+
+Input:
+
+4
+
+55 60 78 70
+
+Output:
+
+78 55
+
+###

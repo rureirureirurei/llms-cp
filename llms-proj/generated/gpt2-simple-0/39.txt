@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the sum of squares of digits of a number.
+
+### Test Case ###
+Input:
+23
+Output:
+13
+
+### Test Case ###
+Input:
+45
+Output:
+41
+
+### Test Case ###
+
+Input:
+
+45
+
+Output:
+
+41
+

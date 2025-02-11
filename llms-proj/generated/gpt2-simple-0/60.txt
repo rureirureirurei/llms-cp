@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the smallest prime greater than a given number.
+
+### Test Case ###
+Input:
+10
+Output:
+11
+
+### Test Case ###
+Input:
+20
+Output:
+23
+
+### Test Case ###
+
+Input:
+
+30
+
+Output:
+
+31
+

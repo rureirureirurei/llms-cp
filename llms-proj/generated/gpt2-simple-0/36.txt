@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the product of digits of a number.
+
+### Test Case ###
+Input:
+123
+Output:
+6
+
+### Test Case ###
+Input:
+456
+Output:
+120
+
+### Test Case ###
+
+Input:
+
+123456
+
+Output:
+
+123456

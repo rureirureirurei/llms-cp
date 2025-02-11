@@ -1,0 +1,26 @@
+
+### Problem ###
+Check if a number is an Armstrong number.
+
+### Test Case ###
+Input:
+153
+Output:
+Yes
+
+### Test Case ###
+Input:
+123
+Output:
+No
+
+### Test Case ###
+
+Input:
+
+123
+
+Output:
+
+No
+

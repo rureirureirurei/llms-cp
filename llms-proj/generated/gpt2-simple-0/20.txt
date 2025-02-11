@@ -1,0 +1,25 @@
+
+### Problem ###
+Reverse a three-digit number.
+
+### Test Case ###
+Input:
+123
+Output:
+321
+
+### Test Case ###
+Input:
+456
+Output:
+654
+
+### Test Case ###
+
+Input:
+
+634
+
+Output:
+
+634

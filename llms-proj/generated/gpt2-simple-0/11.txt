@@ -1,0 +1,26 @@
+
+### Problem ###
+Convert temperature from Fahrenheit to Celsius.
+
+### Test Case ###
+Input:
+32
+Output:
+0
+
+### Test Case ###
+Input:
+98
+Output:
+36.67
+
+### Test Case ###
+
+Input:
+
+0
+
+Output:
+
+0
+

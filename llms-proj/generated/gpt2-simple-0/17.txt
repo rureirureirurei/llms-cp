@@ -1,0 +1,25 @@
+
+### Problem ###
+Check if a number is positive, negative, or zero.
+
+### Test Case ###
+Input:
+7
+Output:
+Positive
+
+### Test Case ###
+Input:
+-3
+Output:
+Negative
+
+### Test Case ###
+
+Input:
+
+-3
+
+Output:
+
+Positive

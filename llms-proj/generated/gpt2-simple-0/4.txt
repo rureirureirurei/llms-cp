@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the maximum of two numbers.
+
+### Test Case ###
+Input:
+9 15
+Output:
+15
+
+### Test Case ###
+Input:
+22 18
+Output:
+22
+
+### Test Case ###
+
+Input:
+
+22 18
+
+Output:
+
+22

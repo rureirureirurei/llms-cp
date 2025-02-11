@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the square of a number.
+
+### Test Case ###
+Input:
+5
+Output:
+25
+
+### Test Case ###
+Input:
+9
+Output:
+81
+
+### Test Case ###
+
+Input:
+
+10
+
+Output:
+
+100
+

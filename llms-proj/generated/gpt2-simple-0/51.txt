@@ -1,0 +1,26 @@
+
+### Problem ###
+Find the cube root of a number (rounded down).
+
+### Test Case ###
+Input:
+27
+Output:
+3
+
+### Test Case ###
+Input:
+65
+Output:
+4
+
+### Test Case ###
+
+Input:
+
+1
+
+Output:
+
+1
+

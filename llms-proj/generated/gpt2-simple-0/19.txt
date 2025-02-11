@@ -1,0 +1,25 @@
+
+### Problem ###
+Find the sum of digits of a number.
+
+### Test Case ###
+Input:
+123
+Output:
+6
+
+### Test Case ###
+Input:
+987
+Output:
+24
+
+### Test Case ###
+
+Input:
+
+988
+
+Output:
+
+8

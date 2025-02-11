@@ -1,0 +1,12 @@
+### Problem ###
+Given a string, count the number of vowels (a, e, i, o, u) present in it.
+
+### Test Case ###
+Input:  
+hello world  
+Output:  
+3  
+
+### Test Case ###
+
+ "Hello World" is an example that shows how to use this function with Python 2 and 3 libraries for testing your
